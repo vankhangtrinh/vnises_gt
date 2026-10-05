@@ -116,7 +116,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 01 */
 		'opening'     => array(
 			'nav'      => 'Khám phá',
-			'eyebrow'  => 'Khoa học có thể khám phá',
 			'title'    => 'Khoa học trở nên gần gũi hơn khi những điều tưởng như trừu tượng có thể được <em class="vngt-em">nhìn thấy, thao tác và kiểm chứng</em>.',
 			'examples' => array(
 				array(
@@ -155,7 +154,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 02 */
 		'identity'    => array(
 			'nav'       => 'VNISES',
-			'eyebrow'   => 'Danh tính',
 			'name'      => 'VNISES',
 			// Mỗi phần tử: array( chữ cái đầu được nhấn, phần còn lại ). Chữ cái đầu rỗng = từ nối.
 			'expansion' => array(
@@ -180,7 +178,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 03 */
 		'nexus'       => array(
 			'nav'       => 'Nexus',
-			'eyebrow'   => 'Nexus',
 			'title'     => '<span lang="en">Nexus</span> — một điểm hội tụ',
 			'body'      => array(
 				'“Nexus” thể hiện vai trò của VNISES như một điểm hội tụ: giữa các lĩnh vực khoa học, giữa lý thuyết và quan sát, giữa mô hình và thực tế, giữa kiến thức và trải nghiệm.',
@@ -211,7 +208,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 04 */
 		'method'      => array(
 			'nav'     => 'Phương pháp',
-			'eyebrow' => 'Phương pháp',
 			'title'   => 'Không chỉ đọc về khoa học',
 			'body'    => array(
 				'Người dùng không chỉ đọc về khoa học. Họ có thể quan sát, tương tác, thay đổi tham số, theo dõi kết quả và từng bước hiểu cơ chế đứng phía sau một hiện tượng.',
@@ -259,7 +255,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 05 */
 		'landscape'   => array(
 			'nav'      => 'Lĩnh vực',
-			'eyebrow'  => 'Phạm vi khoa học',
 			'title'    => 'Từ Trái Đất và bầu trời đến lịch sử tiến hóa của vũ trụ',
 			'body'     => array(
 				'Phạm vi của VNISES trải từ Trái Đất và bầu trời, các hiện tượng của thế giới tự nhiên, công nghệ không gian và thế giới lượng tử đến không gian – thời gian, du hành vũ trụ, thiên hà và lịch sử tiến hóa của vũ trụ.',
@@ -316,7 +311,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 06 */
 		'interaction' => array(
 			'nav'      => 'Tương tác',
-			'eyebrow'  => 'Tương tác',
 			'title'    => 'Tương tác không phải là hiệu ứng trình diễn. <span class="vngt-title__second">Nó là một phần của phương pháp khám phá.</span>',
 			'body'     => 'Tính tương tác là một phần cốt lõi của VNISES, không chỉ là hiệu ứng trình diễn. Người dùng có thể bắt đầu từ một quan sát, đặt câu hỏi, thay đổi điều kiện, so sánh kết quả và kiểm tra trực giác của mình.',
 			'loop_label' => 'Vòng khám phá',
@@ -365,7 +359,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 07 */
 		'integrity'   => array(
 			'nav'      => 'Kiểm chứng',
-			'eyebrow'  => 'Tính kiểm chứng',
 			'title'    => 'Khoa học phải có thể kiểm chứng.',
 			'body'     => 'Độ chính xác và khả năng kiểm chứng là nền tảng của toàn bộ hệ thống. VNISES ưu tiên các nguồn khoa học đáng tin cậy, dữ liệu gốc và các tổ chức có thẩm quyền; đồng thời phân biệt rõ giữa quan sát, mô phỏng, giả định và suy luận.',
 			'taxo_label' => 'Phân biệt loại thông tin',
@@ -404,7 +397,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 08 */
 		'standards'   => array(
 			'nav'      => 'Tiêu chuẩn',
-			'eyebrow'  => 'Định hướng chất lượng',
 			'title'    => 'Hướng tới tiêu chuẩn quốc tế',
 			'status'   => 'Định hướng phát triển',
 			'status_note' => 'Nội dung dưới đây mô tả mục tiêu mà VNISES theo đuổi — không phải thành tích đã đạt được hay đã được chứng nhận.',
@@ -424,7 +416,6 @@ function vnises_gt_content() {
 		/* ---------------------------------------------------------------- 09 */
 		'manifesto'   => array(
 			'nav'     => 'Tuyên ngôn',
-			'eyebrow' => 'Tuyên ngôn',
 			'first'   => array( 'VNISES không chỉ', 'trình bày khoa học.' ),
 			'second'  => array( 'VNISES biến khoa học', 'thành một không gian', 'để khám phá.' ),
 		),
@@ -618,17 +609,6 @@ function vnises_gt_heading( $level, $inner, $class, $id = '' ) {
 }
 
 /**
- * Eyebrow đánh số của mỗi scene.
- *
- * @param int    $num   Số thứ tự.
- * @param string $label Nhãn.
- * @return string
- */
-function vnises_gt_eyebrow( $num, $label ) {
-	return '<p class="vngt-eyebrow"><span class="vngt-eyebrow__idx">' . esc_html( sprintf( '%02d', $num ) ) . '<span class="vngt-sr"> / </span><span class="vngt-eyebrow__total" aria-hidden="true">/09</span></span><span class="vngt-eyebrow__rule" aria-hidden="true"></span><span class="vngt-eyebrow__label">' . esc_html( $label ) . '</span></p>';
-}
-
-/**
  * Nhãn loại thông tin của một hình (SIMULATION, SƠ ĐỒ...).
  *
  * @param string $type Loại.
@@ -695,7 +675,6 @@ function vnises_gt_render_opening( $ctx, $all ) {
 	$html .= '</header>';
 
 	$html .= '<div class="vngt-opening__head">';
-	$html .= vnises_gt_eyebrow( 1, $c['eyebrow'] );
 	$html .= vnises_gt_heading( $ctx['h2'], vnises_gt_k( $c['title'] ), 'vngt-title vngt-title--opening', $id . '-s01-title' );
 	$html .= '</div>';
 
@@ -755,7 +734,6 @@ function vnises_gt_render_opening( $ctx, $all ) {
 function vnises_gt_render_identity( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's02', 'identity' );
-	$html .= vnises_gt_eyebrow( 2, $c['eyebrow'] );
 	$html .= '<div class="vngt-identity">';
 	$html .= vnises_gt_heading( $ctx['h2'], esc_html( $c['name'] ), 'vngt-wordmark', $id . '-s02-title' );
 
@@ -789,7 +767,7 @@ function vnises_gt_render_nexus( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's03', 'nexus' );
 	$html .= '<div class="vngt-intro">';
-	$html .= '<div class="vngt-intro__head">' . vnises_gt_eyebrow( 3, $c['eyebrow'] ) . vnises_gt_heading( $ctx['h2'], vnises_gt_k( $c['title'] ), 'vngt-title', $id . '-s03-title' ) . '</div>';
+	$html .= '<div class="vngt-intro__head">' . vnises_gt_heading( $ctx['h2'], vnises_gt_k( $c['title'] ), 'vngt-title', $id . '-s03-title' ) . '</div>';
 	$html .= '<div class="vngt-intro__body vngt-prose">';
 	foreach ( $c['body'] as $i => $p ) {
 		$html .= '<p' . ( 0 === $i ? ' class="vngt-lead"' : '' ) . '>' . esc_html( $p ) . '</p>';
@@ -855,7 +833,7 @@ function vnises_gt_render_method( $ctx, $c ) {
 	$e0    = 0.5;
 	$html  = vnises_gt_scene_open( $ctx, 's04', 'method' );
 	$html .= '<div class="vngt-intro">';
-	$html .= '<div class="vngt-intro__head">' . vnises_gt_eyebrow( 4, $c['eyebrow'] ) . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s04-title' ) . '</div>';
+	$html .= '<div class="vngt-intro__head">' . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s04-title' ) . '</div>';
 	$html .= '<div class="vngt-intro__body vngt-prose">';
 	foreach ( $c['body'] as $i => $p ) {
 		$html .= '<p' . ( 0 === $i ? ' class="vngt-lead"' : '' ) . '>' . esc_html( $p ) . '</p>';
@@ -912,7 +890,7 @@ function vnises_gt_render_landscape( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's05', 'landscape' );
 	$html .= '<div class="vngt-intro">';
-	$html .= '<div class="vngt-intro__head">' . vnises_gt_eyebrow( 5, $c['eyebrow'] ) . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s05-title' ) . '</div>';
+	$html .= '<div class="vngt-intro__head">' . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s05-title' ) . '</div>';
 	$html .= '<div class="vngt-intro__body vngt-prose">';
 	foreach ( $c['body'] as $i => $p ) {
 		$html .= '<p' . ( 0 === $i ? ' class="vngt-lead"' : '' ) . '>' . esc_html( $p ) . '</p>';
@@ -973,7 +951,6 @@ function vnises_gt_render_interaction( $ctx, $c ) {
 	$st    = $c['station'];
 	$html  = vnises_gt_scene_open( $ctx, 's06', 'interaction' );
 	$html .= '<div class="vngt-interaction__head">';
-	$html .= vnises_gt_eyebrow( 6, $c['eyebrow'] );
 	$html .= vnises_gt_heading( $ctx['h2'], vnises_gt_k( $c['title'] ), 'vngt-title vngt-title--wide', $id . '-s06-title' );
 	$html .= '<p class="vngt-lead vngt-interaction__lead">' . esc_html( $c['body'] ) . '</p>';
 	$html .= '</div>';
@@ -1026,7 +1003,7 @@ function vnises_gt_render_integrity( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's07', 'integrity' );
 	$html .= '<div class="vngt-intro">';
-	$html .= '<div class="vngt-intro__head">' . vnises_gt_eyebrow( 7, $c['eyebrow'] ) . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title vngt-title--caps', $id . '-s07-title' ) . '</div>';
+	$html .= '<div class="vngt-intro__head">' . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title vngt-title--caps', $id . '-s07-title' ) . '</div>';
 	$html .= '<div class="vngt-intro__body vngt-prose"><p class="vngt-lead">' . esc_html( $c['body'] ) . '</p></div>';
 	$html .= '</div>';
 
@@ -1076,7 +1053,7 @@ function vnises_gt_render_standards( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's08', 'standards' );
 	$html .= '<div class="vngt-intro">';
-	$html .= '<div class="vngt-intro__head">' . vnises_gt_eyebrow( 8, $c['eyebrow'] ) . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s08-title' );
+	$html .= '<div class="vngt-intro__head">' . vnises_gt_heading( $ctx['h2'], esc_html( $c['title'] ), 'vngt-title', $id . '-s08-title' );
 	$html .= '<p class="vngt-status"><span class="vngt-status__tag">' . esc_html( $c['status'] ) . '</span><span class="vngt-status__note">' . esc_html( $c['status_note'] ) . '</span></p></div>';
 	$html .= '<div class="vngt-intro__body vngt-prose"><p class="vngt-lead">' . esc_html( $c['body'] ) . '</p></div>';
 	$html .= '</div>';
@@ -1100,7 +1077,6 @@ function vnises_gt_render_standards( $ctx, $c ) {
 function vnises_gt_render_manifesto( $ctx, $c ) {
 	$id    = $ctx['id'];
 	$html  = vnises_gt_scene_open( $ctx, 's09', 'manifesto' );
-	$html .= vnises_gt_eyebrow( 9, $c['eyebrow'] );
 
 	$inner = '<span class="vngt-manifesto__first">';
 	foreach ( $c['first'] as $i => $line ) {
@@ -1703,10 +1679,6 @@ function vnises_gt_css() {
 .vngt-root .vngt-scene--opening::before{content:"";position:absolute;left:0;right:0;top:0;height:min(900px,90%);background-image:linear-gradient(var(--vngt-line) 1px,transparent 1px),linear-gradient(90deg,var(--vngt-line) 1px,transparent 1px);background-size:72px 72px;background-position:center top;opacity:.45;-webkit-mask-image:linear-gradient(180deg,#000,rgba(0,0,0,0));mask-image:linear-gradient(180deg,#000,rgba(0,0,0,0));pointer-events:none;z-index:-1}
 .vngt-root .vngt-scene--integrity,.vngt-root .vngt-scene--standards{background:var(--vngt-surface)}
 
-.vngt-root .vngt-eyebrow{display:flex;align-items:center;flex-wrap:wrap;gap:.7em;margin:0 0 1.4em;font-size:.76em;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--vngt-muted);line-height:1.4}
-.vngt-root .vngt-eyebrow__idx{font-family:var(--vngt-mono);color:var(--vngt-accent);letter-spacing:.04em}
-.vngt-root .vngt-eyebrow__total{color:var(--vngt-muted)}
-.vngt-root .vngt-eyebrow__rule{display:block;width:2.4em;height:1px;background:var(--vngt-line-2)}
 
 .vngt-root .vngt-title{font-size:clamp(1.7em,1.05em + 2.4vw,3.05em);font-size:clamp(1.7em,1.05em + 2.4cqi,3.05em);font-weight:500;line-height:1.18;letter-spacing:-.012em;color:var(--vngt-text);max-width:19em;text-wrap:balance}
 .vngt-root .vngt-title--caps{text-transform:uppercase;letter-spacing:.01em;font-size:clamp(1.55em,1em + 2vw,2.6em);font-size:clamp(1.55em,1em + 2cqi,2.6em);line-height:1.2}
@@ -2139,7 +2111,8 @@ function vnises_gt_css() {
 .vngt-root .vngt-manifesto__text{display:grid;gap:.7em;font-size:clamp(1.75em,.9em + 3.8vw,4.3em);font-size:clamp(1.75em,.9em + 3.8cqi,4.3em);font-weight:500;line-height:1.14;letter-spacing:.005em;text-transform:uppercase;color:var(--vngt-text)}
 .vngt-root .vngt-manifesto__first{display:block;color:var(--vngt-muted)}
 .vngt-root .vngt-manifesto__second{display:block;color:var(--vngt-text)}
-.vngt-root .vngt-manifesto__line{display:block}
+.vngt-root .vngt-manifesto__line{display:inline}
+@container vngt (min-width:768px){.vngt-root .vngt-manifesto__line{display:block}}
 .vngt-root .vngt-cta{display:inline-flex;align-items:center;gap:.8em;min-height:52px;padding:.8em 1.5em;border:1px solid var(--vngt-accent);border-radius:2px;color:var(--vngt-text);font-size:.92em;font-weight:600;letter-spacing:.14em;text-transform:uppercase;transition:background-color .25s ease,color .25s ease}
 .vngt-root .vngt-cta:hover{background:var(--vngt-accent);color:var(--vngt-bg)}
 .vngt-root .vngt-cta__arrow{display:inline-block;letter-spacing:0;transition:transform .25s ease}
