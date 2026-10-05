@@ -34,6 +34,7 @@ Thời lượng **00:02:55:12** · 16:9 · 25 fps · 28 shot.
 | 13_Scientific_Audit.md | Kiểm tra khoa học lời đọc và hình |
 | 14_Copyright_Audit.md | Kiểm tra bản quyền/provenance, thẻ credit |
 | 16_VNISES_Footage_Capture_List.md | Danh sách quay màn hình vnises.com |
+| 17_Danh_sach_anh_va_nguon_tai.docx | Danh sách 16 ảnh khoa học và nguồn tải (Word), sinh bằng src/build_asset_docx.js |
 
 Không có file 15: gói **không dùng hình ảnh AI-generated** — mọi hình minh họa khái niệm là motion graphics dựng bằng code, tất định, có nhãn loại thông tin.
 
