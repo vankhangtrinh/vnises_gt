@@ -1,0 +1,7 @@
+# Video render (lớn, tái lập được bằng src/render/*) — không commit
+renders/
+*.mp4
+*.mov
+*.wav
+src/render/vnises_page.html
+src/__pycache__/

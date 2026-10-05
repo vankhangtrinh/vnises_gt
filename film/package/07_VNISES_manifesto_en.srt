@@ -1,0 +1,196 @@
+1
+00:00:01,520 --> 00:00:05,010
+Some questions have stayed
+with us for a very long time.
+
+2
+00:00:05,360 --> 00:00:07,650
+How did the universe begin?
+
+3
+00:00:08,080 --> 00:00:10,130
+How did life arise?
+
+4
+00:00:10,560 --> 00:00:14,890
+What laws organize matter, space and time?
+
+5
+00:00:15,040 --> 00:00:19,010
+And what is our place
+in this vast universe?
+
+6
+00:00:19,680 --> 00:00:23,880
+Science has taken us a long
+way toward answering them.
+
+7
+00:00:23,960 --> 00:00:26,880
+We have looked deep into
+the structure of matter,
+
+8
+00:00:26,960 --> 00:00:29,200
+read the information carried by life,
+
+9
+00:00:29,280 --> 00:00:32,480
+seen light that crossed the
+universe over billions of years,
+
+10
+00:00:32,560 --> 00:00:35,330
+and sent our instruments beyond the Earth.
+
+11
+00:00:35,600 --> 00:00:38,970
+But every discovery opens new questions.
+
+12
+00:00:39,520 --> 00:00:44,170
+We tend to speak of exploring the
+universe as if it were a world outside us.
+
+13
+00:00:44,400 --> 00:00:47,730
+But we have never stood outside nature.
+
+14
+00:00:49,280 --> 00:00:53,170
+The matter we are made of is
+the matter of the universe.
+
+15
+00:00:53,520 --> 00:00:58,250
+The laws we try to understand are the
+laws of the very world we live in.
+
+16
+00:00:58,600 --> 00:01:01,720
+Scientific knowledge is not
+made in a single moment.
+
+17
+00:01:01,800 --> 00:01:06,367
+It is built over generations — from
+observation, questions, experiments,
+
+18
+00:01:06,367 --> 00:01:11,040
+models and data; from mistakes
+recognized and understanding revised.
+
+19
+00:01:11,120 --> 00:01:16,210
+Each generation takes what came before,
+tests it again, and adds something new.
+
+20
+00:01:16,880 --> 00:01:21,050
+VNISES was created in the hope of
+contributing a part to that journey.
+
+21
+00:01:21,600 --> 00:01:24,320
+Here, science is not
+only something to read.
+
+22
+00:01:24,400 --> 00:01:26,890
+A phenomenon can be observed.
+
+23
+00:01:27,240 --> 00:01:29,730
+A model can be changed.
+
+24
+00:01:30,280 --> 00:01:32,770
+An assumption can be tested.
+
+25
+00:01:33,400 --> 00:01:35,930
+A result can be compared.
+
+26
+00:01:36,400 --> 00:01:40,090
+And one question can lead to a deeper one.
+
+27
+00:01:40,560 --> 00:01:43,680
+Because science does not live
+in separate compartments.
+
+28
+00:01:43,760 --> 00:01:48,450
+A question about light can lead to
+quantum physics, and then to astronomy.
+
+29
+00:01:48,600 --> 00:01:52,850
+A problem of motion can lead
+to orbits, and to spaceflight.
+
+30
+00:01:53,000 --> 00:01:54,937
+An observation of a galaxy can open
+
+31
+00:01:54,937 --> 00:01:58,210
+questions about the history
+of the entire universe.
+
+32
+00:01:58,560 --> 00:02:00,690
+That is what Nexus means.
+
+33
+00:02:01,520 --> 00:02:05,410
+But discovery only has meaning
+when it can be verified.
+
+34
+00:02:05,760 --> 00:02:07,570
+Data needs a source.
+
+35
+00:02:07,720 --> 00:02:10,490
+Simulation must be
+distinguished from observation.
+
+36
+00:02:10,640 --> 00:02:12,730
+Assumptions need to be identified.
+
+37
+00:02:12,880 --> 00:02:15,650
+A model's limits need to be shown.
+
+38
+00:02:15,800 --> 00:02:20,370
+And when the evidence is not yet enough,
+the uncertainty must be stated clearly.
+
+39
+00:02:21,000 --> 00:02:24,673
+VNISES is not built to make
+science look simpler than it is —
+
+40
+00:02:24,673 --> 00:02:27,050
+nor to make it more complicated.
+
+41
+00:02:27,200 --> 00:02:32,050
+The aim is to make the path from
+observation to understanding clearer.
+
+42
+00:02:33,120 --> 00:02:38,010
+There may always be questions
+beyond what we currently understand.
+
+43
+00:02:38,480 --> 00:02:42,290
+And that is why the journey
+of discovery continues.

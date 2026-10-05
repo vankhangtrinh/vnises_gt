@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>VNISES manifesto — motion graphics renderer</title>
+<style>
+@font-face{font-family:"BVP";font-weight:300;src:url(fonts/be-vietnam-pro-vietnamese-300-normal.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:"BVP";font-weight:300;src:url(fonts/be-vietnam-pro-latin-ext-300-normal.woff2) format("woff2");unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"BVP";font-weight:300;src:url(fonts/be-vietnam-pro-latin-300-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"BVP";font-weight:400;src:url(fonts/be-vietnam-pro-vietnamese-400-normal.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:"BVP";font-weight:400;src:url(fonts/be-vietnam-pro-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"BVP";font-weight:400;src:url(fonts/be-vietnam-pro-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"BVP";font-weight:500;src:url(fonts/be-vietnam-pro-vietnamese-500-normal.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:"BVP";font-weight:500;src:url(fonts/be-vietnam-pro-latin-ext-500-normal.woff2) format("woff2");unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"BVP";font-weight:500;src:url(fonts/be-vietnam-pro-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"BVP";font-weight:600;src:url(fonts/be-vietnam-pro-vietnamese-600-normal.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:"BVP";font-weight:600;src:url(fonts/be-vietnam-pro-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"PlexMono";font-weight:400;src:url(fonts/ibm-plex-mono-vietnamese-400-normal.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:"PlexMono";font-weight:400;src:url(fonts/ibm-plex-mono-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"PlexMono";font-weight:400;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"PlexMono";font-weight:500;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F,U+2212}
+html,body{margin:0;padding:0;background:#0b0c0d;overflow:hidden}
+canvas{display:block}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script>
+/* =========================================================================
+ * VNISES manifesto — motion graphics renderer (deterministic, frame-addressed)
+ * window.VNGT.render(shotId, t) vẽ shot tại thời điểm cục bộ t (giây).
+ * Không dùng Math.random(): mọi bố cục tất định để render lặp lại giống hệt.
+ * ========================================================================= */
+(function () {
+'use strict';
+var W = 1920, H = 1080;
+var C = {
+	bg: '#0b0c0d', bg2: '#111315', text: '#eeede8', text2: '#cfcec7', muted: '#a2a29b',
+	line: 'rgba(238,237,232,0.14)', line2: 'rgba(238,237,232,0.28)', line3: 'rgba(238,237,232,0.5)',
+	accent: '#d4a957', accentSoft: 'rgba(212,169,87,0.16)'
+};
+var SANS = '"BVP", "Liberation Sans", sans-serif', MONO = '"PlexMono", "Liberation Mono", monospace';
+var cv = document.getElementById('c'), ctx = cv.getContext('2d');
+var DPR = 1, TL = null;
+
+/* ---------- helpers ---------- */
+function clamp(x, a, b) { return Math.max(a, Math.min(b, x)); }
+function ramp(t, a, len) { return clamp((t - a) / len, 0, 1); }
+function ease(x) { return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }
+function eo(x) { return 1 - Math.pow(1 - x, 3); }
+function fade(t, a, len) { return ease(ramp(t, a, len)); }
+function lerp(a, b, k) { return a + (b - a) * k; }
+function cue(shot, id) { for (var i = 0; i < shot.cues.length; i++) { if (shot.cues[i].id === id) { return shot.cues[i]; } } return { t: 0, end: 0 }; }
+function bgFill(col) { ctx.fillStyle = col || C.bg; ctx.fillRect(0, 0, W, H); }
+function txt(s, x, y, o) {
+	o = o || {};
+	ctx.save();
+	ctx.globalAlpha *= (o.a === undefined ? 1 : o.a);
+	ctx.font = (o.w || 400) + ' ' + (o.size || 28) + 'px ' + (o.mono ? MONO : SANS);
+	ctx.fillStyle = o.color || C.text;
+	ctx.textAlign = o.align || 'left';
+	ctx.textBaseline = o.base || 'alphabetic';
+	if ('letterSpacing' in ctx) { ctx.letterSpacing = (o.ls || 0) + 'px'; }
+	ctx.fillText(s, x, y);
+	var m = ctx.measureText(s).width;
+	ctx.restore();
+	return m;
+}
+function wrap(s, x, y, maxW, lh, o) {
+	ctx.save();
+	ctx.font = (o.w || 400) + ' ' + (o.size || 28) + 'px ' + (o.mono ? MONO : SANS);
+	var words = s.split(' '), line = '', yy = y, lines = [];
+	for (var i = 0; i < words.length; i++) {
+		var test = line ? line + ' ' + words[i] : words[i];
+		if (ctx.measureText(test).width > maxW && line) { lines.push(line); line = words[i]; } else { line = test; }
+	}
+	if (line) { lines.push(line); }
+	ctx.restore();
+	for (var j = 0; j < lines.length; j++) { txt(lines[j], x, yy, o); yy += lh; }
+	return yy;
+}
+function stroke(col, w, dash) { ctx.strokeStyle = col; ctx.lineWidth = w; ctx.setLineDash(dash || []); }
+function seg(x1, y1, x2, y2, k) { ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(lerp(x1, x2, k), lerp(y1, y2, k)); ctx.stroke(); }
+function poly(pts, k) {
+	if (pts.length < 2 || k <= 0) { return; }
+	var n = Math.max(1, Math.floor((pts.length - 1) * clamp(k, 0, 1)));
+	ctx.beginPath(); ctx.moveTo(pts[0][0], pts[0][1]);
+	for (var i = 1; i <= n; i++) { ctx.lineTo(pts[i][0], pts[i][1]); }
+	ctx.stroke();
+}
+function dot(x, y, r, col) { ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = col; ctx.fill(); }
+function ring(x, y, r, col, w) { ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); stroke(col, w || 1.5); ctx.stroke(); }
+/* Nhãn loại thông tin (đồng bộ với hệ nhãn trên vnises.com: SIMULATION, SƠ ĐỒ, FACT…) */
+function tag(type, note, x, y, a) {
+	ctx.save(); ctx.globalAlpha *= a;
+	ctx.font = '500 17px ' + MONO; if ('letterSpacing' in ctx) { ctx.letterSpacing = '2px'; }
+	var w = ctx.measureText(type).width + 22;
+	ctx.strokeStyle = C.line3; ctx.lineWidth = 1; ctx.setLineDash([]);
+	ctx.strokeRect(x + 0.5, y + 0.5, w, 32);
+	ctx.restore();
+	txt(type, x + 11, y + 22, { mono: true, size: 17, w: 500, ls: 2, a: a });
+	if (note) { txt(note.toUpperCase(), x + w + 14, y + 22, { size: 16, color: C.muted, ls: 2, a: a }); }
+}
+
+/* ---------- A-layer reference slate ---------- */
+function slate(shot, t) {
+	bgFill('#0d0f10');
+	var a = shot.asset_info;
+	var fx = 150, fy = 110, fw = W - 300, fh = H - 300;
+	stroke(C.line2, 1.5, [8, 8]); ctx.strokeRect(fx, fy, fw, fh);
+	// Hướng dẫn chuyển động: khung đích co dần theo push-in (minh họa, không phải ảnh)
+	var k = t / Math.max(0.1, shot.dur);
+	var m = shot.motion || '';
+	var scale = 1;
+	var mm = m.match(/(\d,\d+)\s*(?:×)?\s*→\s*(\d,\d+)/);
+	if (mm) { var s0 = parseFloat(mm[1].replace(',', '.')), s1 = parseFloat(mm[2].replace(',', '.')); scale = lerp(s0, s1, k); }
+	var iw = fw / scale, ih = fh / scale;
+	stroke(C.accent, 1.5, []); ctx.globalAlpha = 0.7;
+	ctx.strokeRect(fx + (fw - iw) / 2, fy + (fh - ih) / 2, iw, ih); ctx.globalAlpha = 1;
+	txt('ẢNH THẬT — CHÈN TỪ NGUỒN · ' + a.map(function (x) { return x.id; }).join(' + '), fx + 110, fy + 110, { mono: true, size: 20, color: C.accent, ls: 2 });
+	var y = wrap(a[0].desc, fx + 110, fy + 180, fw - 520, 50, { size: 38, w: 400 });
+	y = wrap('Nguồn: ' + a.map(function (x) { return x.org; }).join(' / '), fx + 110, y + 20, fw - 520, 34, { size: 24, color: C.text2 });
+	y = wrap('Chuyển động: ' + m, fx + 110, y + 14, fw - 520, 34, { size: 24, color: C.muted });
+	txt('Trạng thái: ' + a.map(function (x) { return x.status; }).join(' / '), fx + 110, y + 24, { mono: true, size: 18, color: C.muted, ls: 1 });
+	txt(shot.id, fx + fw - 110, fy + 110, { mono: true, size: 20, color: C.muted, align: 'right', ls: 2 });
+	txt('Credit trên màn hình: ' + a.map(function (x) { return x.credit; }).join(' · '), fx + 110, fy + fh - 80, { size: 20, color: C.muted });
+}
+
+/* ---------- SH13 — các nguyên tố và nguồn gốc ---------- */
+function sh13(shot, t) {
+	bgFill();
+	var a = fade(t, 0.2, 0.8);
+	tag('FACT', 'nguồn gốc chủ yếu của các nguyên tố', 120, 96, a);
+	var els = [['H', 1], ['O', 8], ['C', 6], ['N', 7], ['Ca', 20], ['P', 15]];
+	var xs = [520, 860, 1030, 1200, 1370, 1540], y = 470;
+	for (var i = 0; i < els.length; i++) {
+		var e = fade(t, 0.45 + i * 0.32, 0.7);
+		txt(String(els[i][1]), xs[i] - 46, y - 92, { mono: true, size: 20, color: C.muted, a: e });
+		txt(els[i][0], xs[i], y, { size: 112, w: 300, align: 'center', a: e });
+	}
+	var l1 = fade(t, 2.55, 1.1), l2 = fade(t, 2.85, 1.1);
+	stroke(C.line3, 1.5); ctx.globalAlpha = 1;
+	seg(520, 520, 520, 640, l1);
+	stroke(C.line3, 1.5);
+	if (l2 > 0) { seg(860, 520, 860, 560, l2); seg(1540, 520, 1540, 560, l2); seg(860, 560, lerp(860, 1540, l2), 560, 1); seg(1200, 560, 1200, 640, l2); }
+	txt('vũ trụ sơ khai', 520, 690, { size: 30, align: 'center', color: C.text2, a: fade(t, 3.3, 0.8) });
+	txt('các ngôi sao và vụ nổ sao', 1200, 690, { size: 30, align: 'center', color: C.text2, a: fade(t, 3.6, 0.8) });
+}
+
+/* ---------- SH14 — khẩu pháo của Newton (tích phân số, GM = 1, r0 = 1) ---------- */
+var CANNON = null;
+function cannonPaths() {
+	if (CANNON) { return CANNON; }
+	var Re = 0.80; // bán kính Trái Đất so với độ cao phóng (núi phóng đại)
+	var speeds = [0.7, 0.85, 0.93, 1.0];
+	CANNON = speeds.map(function (v) {
+		var x = 0, y = 1, vx = v, vy = 0, dt = 0.0025, pts = [[x, y]], tt = 0;
+		var tmax = v >= 1 ? 2 * Math.PI : 6;
+		function acc(px, py) { var r = Math.sqrt(px * px + py * py), k = -1 / (r * r * r); return [k * px, k * py]; }
+		while (tt < tmax) { // RK4
+			var a1 = acc(x, y), k1 = [vx, vy, a1[0], a1[1]];
+			var a2 = acc(x + k1[0] * dt / 2, y + k1[1] * dt / 2), k2 = [vx + k1[2] * dt / 2, vy + k1[3] * dt / 2, a2[0], a2[1]];
+			var a3 = acc(x + k2[0] * dt / 2, y + k2[1] * dt / 2), k3 = [vx + k2[2] * dt / 2, vy + k2[3] * dt / 2, a3[0], a3[1]];
+			var a4 = acc(x + k3[0] * dt, y + k3[1] * dt), k4 = [vx + k3[2] * dt, vy + k3[3] * dt, a4[0], a4[1]];
+			x += dt / 6 * (k1[0] + 2 * k2[0] + 2 * k3[0] + k4[0]); y += dt / 6 * (k1[1] + 2 * k2[1] + 2 * k3[1] + k4[1]);
+			vx += dt / 6 * (k1[2] + 2 * k2[2] + 2 * k3[2] + k4[2]); vy += dt / 6 * (k1[3] + 2 * k2[3] + 2 * k3[3] + k4[3]);
+			tt += dt; pts.push([x, y]);
+			if (Math.sqrt(x * x + y * y) <= Re) { break; }
+		}
+		return { v: v, pts: pts, Re: Re };
+	});
+	return CANNON;
+}
+function sh14(shot, t) {
+	bgFill();
+	var P = cannonPaths(), cx = 960, cy = 520, S = 300; // 1 đơn vị = 300 px
+	var Re = P[0].Re * S;
+	var a = fade(t, 0, 0.6);
+	tag('SIMULATION', 'định luật hấp dẫn của Newton', 120, 96, a);
+	ctx.globalAlpha = a;
+	ctx.beginPath(); ctx.arc(cx, cy, Re, 0, Math.PI * 2); ctx.fillStyle = '#15181b'; ctx.fill(); stroke(C.line3, 1.5); ctx.stroke();
+	// núi (phóng đại)
+	ctx.beginPath(); ctx.moveTo(cx - 40, cy - Re + 4); ctx.lineTo(cx, cy - S); ctx.lineTo(cx + 40, cy - Re + 4); ctx.fillStyle = '#15181b'; ctx.fill(); stroke(C.line3, 1.5); ctx.stroke();
+	ctx.globalAlpha = 1;
+	var starts = [0.5, 1.25, 2.0, 2.75], lens = [0.7, 0.8, 0.9, 1.9];
+	for (var i = 0; i < P.length; i++) {
+		var k = eo(ramp(t, starts[i], lens[i]));
+		if (k <= 0) { continue; }
+		var pts = P[i].pts.map(function (p) { return [cx + p[0] * S, cy - p[1] * S]; });
+		stroke(i === P.length - 1 ? C.accent : C.text2, i === P.length - 1 ? 2.2 : 1.6, i === P.length - 1 ? [] : []);
+		ctx.globalAlpha = i === P.length - 1 ? 1 : 0.85;
+		poly(pts, k); ctx.globalAlpha = 1;
+		var n = Math.max(0, Math.floor((pts.length - 1) * k));
+		if (k < 1) { dot(pts[n][0], pts[n][1], 5, C.text); }
+	}
+	txt('độ cao ngọn núi được phóng đại để dễ nhìn', 120, 980 - 120, { size: 20, color: C.muted, a: fade(t, 1.0, 0.8) });
+}
+
+/* ---------- SH16/SH17 — mạng tri thức qua các thế hệ → VNISES ---------- */
+var NET = null;
+function lcg(seed) { var s = seed >>> 0; return function () { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+function network() {
+	if (NET) { return NET; }
+	var r = lcg(20240613), nodes = [], links = [];
+	var gens = 6, x0 = 330, x1 = 1590;
+	for (var g = 0; g < gens; g++) {
+		var count = g === 0 ? 4 : 4 + g;
+		for (var j = 0; j < count; j++) {
+			var x = lerp(x0, x1, g / (gens - 1)) + (r() - 0.5) * 70;
+			var y = 210 + (j + 0.5) / count * 560 + (r() - 0.5) * 50;
+			var id = nodes.length;
+			nodes.push({ x: x, y: y, g: g });
+			if (g > 0) {
+				var prev = nodes.filter(function (n) { return n.g === g - 1; });
+				prev.sort(function (a, b) { return Math.abs(a.y - y) - Math.abs(b.y - y); });
+				links.push([nodes.indexOf(prev[0]), id]);
+				if (r() > 0.45 && prev[1]) { links.push([nodes.indexOf(prev[1]), id]); }
+				if (g > 1 && r() > 0.7) { var older = nodes.filter(function (n) { return n.g === g - 2; }); links.push([nodes.indexOf(older[Math.floor(r() * older.length)]), id]); }
+			}
+		}
+	}
+	// Nút mới nhất của VNISES: ở phía bên phải, nối với các nút thế hệ cuối
+	var vn = { x: 1700, y: 490, g: gens, vn: true }; nodes.push(vn);
+	nodes.forEach(function (n, i) { if (n.g === gens - 1 && Math.abs(n.y - 490) < 260) { links.push([i, nodes.length - 1]); } });
+	NET = { nodes: nodes, links: links, gens: gens };
+	return NET;
+}
+function drawNet(t, genTimes, vnK, dim, offX, scl, offY) {
+	offY = offY || 0;
+	var N = network();
+	ctx.save(); ctx.translate(960, 540); ctx.scale(scl, scl); ctx.translate(-960 + offX, -540 + offY);
+	N.links.forEach(function (l) {
+		var A = N.nodes[l[0]], B = N.nodes[l[1]];
+		var k = B.vn ? vnK : eo(ramp(t, genTimes[B.g] + 0.15, 0.8));
+		if (k <= 0) { return; }
+		stroke(B.vn ? 'rgba(212,169,87,0.55)' : C.line2, 1.3 / scl); ctx.globalAlpha = 1 - dim * 0.8;
+		seg(A.x, A.y, B.x, B.y, k);
+	});
+	ctx.globalAlpha = 1;
+	N.nodes.forEach(function (n) {
+		var k = n.vn ? vnK : fade(t, genTimes[n.g], 0.5);
+		if (k <= 0) { return; }
+		if (n.vn) { ring(n.x, n.y, 16 / scl, 'rgba(212,169,87,' + (0.5 * k) + ')', 1.2 / scl); dot(n.x, n.y, 7 / scl, 'rgba(212,169,87,' + k + ')'); }
+		else { ctx.globalAlpha = (1 - dim * 0.8) * k; dot(n.x, n.y, (n.g === 0 ? 6 : 4.5) / scl, n.g === 0 ? C.text : C.text2); ctx.globalAlpha = 1; }
+	});
+	ctx.restore();
+}
+function sh16(shot, t) {
+	bgFill();
+	var gt = [0.0, 0.7, 1.4, 2.1, 2.8, 3.5];
+	var vnK = eo(ramp(t, cue(shot, 'L15').end - 0.9, 1.0));
+	drawNet(t, gt, vnK, 0, 0, 1);
+	var lab = ['1610', '1609', '1687', '1929'];
+	var N = network(), first = N.nodes.filter(function (n) { return n.g === 0; });
+	first.forEach(function (n, i) { txt(lab[i], n.x - 16, n.y + 6, { mono: true, size: 18, color: C.muted, align: 'right', a: 1 - fade(t, 1.6, 0.8) }); });
+}
+function sh17(shot, t) {
+	bgFill();
+	var N = network(), vn = N.nodes[N.nodes.length - 1];
+	var k = ease(ramp(t, 0.0, 2.2));
+	var offX = lerp(0, 960 - vn.x, k), offY = lerp(0, 400 - vn.y, k), dim = k, scl = 1;
+	drawNet(99, [0, 0, 0, 0, 0, 0], 1, dim, offX, scl, offY);
+	var a1 = fade(t, 1.1, 1.3), a2 = fade(t, 2.3, 1.2);
+	var tr = lerp(10, 5, a1);
+	txt('VNISES', 960, 578, { size: 104, w: 600, align: 'center', ls: tr, a: a1 });
+	txt('Vietnam Nexus for Interactive Space Exploration and Science', 960, 660, { size: 30, w: 300, align: 'center', color: C.text2, ls: 1, a: a2 });
+}
+
+/* ---------- SH20 — kiểm tra giả định: lực cản không khí ---------- */
+var PROJ = null;
+function projectile(drag) {
+	var x = 0, y = 0, vx = 1, vy = 1, g = 2, dt = 0.002, pts = [[0, 0]];
+	while (y >= 0 && pts.length < 5000) {
+		var v = Math.sqrt(vx * vx + vy * vy);
+		var ax = -drag * v * vx, ay = -g - drag * v * vy;
+		vx += ax * dt; vy += ay * dt; x += vx * dt; y += vy * dt; pts.push([x, Math.max(0, y)]);
+	}
+	return pts;
+}
+function sh20(shot, t) {
+	bgFill();
+	if (!PROJ) { PROJ = [projectile(0), projectile(0.9)]; }
+	var X0 = 360, Y0 = 760, S = 1200;
+	tag('SIMULATION', 'minh họa định tính', 120, 96, fade(t, 0, 0.5));
+	stroke(C.line3, 1.5); seg(X0 - 40, Y0, X0 + 1240, Y0, fade(t, 0, 0.5));
+	var p0 = PROJ[0].map(function (p) { return [X0 + p[0] * S, Y0 - p[1] * S]; });
+	var p1 = PROJ[1].map(function (p) { return [X0 + p[0] * S, Y0 - p[1] * S]; });
+	var k0 = eo(ramp(t, 0.15, 1.1)), k1 = eo(ramp(t, 1.45, 1.1));
+	stroke(C.text2, 2, [10, 8]); poly(p0, k0);
+	stroke(C.accent, 2.4, []); poly(p1, k1);
+	ctx.setLineDash([]);
+	var a = fade(t, 0.3, 0.5), s = fade(t, 1.3, 0.35);
+	var w = txt('ASSUMPTION', 1180, 300, { mono: true, size: 18, color: C.muted, ls: 2, a: a });
+	var w2 = txt('bỏ qua lực cản không khí', 1180, 340, { size: 30, color: C.text2, a: a });
+	if (s > 0) { stroke(C.text2, 2); seg(1176, 330, 1184 + w2, 330, s); }
+	txt('có lực cản không khí', 1180, 396, { size: 30, color: C.accent, a: fade(t, 1.55, 0.5) });
+}
+
+/* ---------- SH23/SH24 — Nexus ---------- */
+var CHAINS = [
+	{ cue: 'L24', y: 300, labels: ['Ánh sáng', 'Thế giới tự nhiên', 'Lượng tử', 'Thiên văn học'] },
+	{ cue: 'L25', y: 500, labels: ['Chuyển động', 'Cơ học', 'Quỹ đạo', 'Du hành không gian'] },
+	{ cue: 'L26', y: 700, labels: ['Quan sát thiên hà', 'Vũ trụ học', 'Lịch sử vũ trụ'] }
+];
+/* Liên kết chéo giữa các chuỗi (SH24) — đều là liên hệ khoa học có thật. */
+// [điểm đầu, điểm cuối, điểm điều khiển Bézier] — đường cong vòng tránh nhãn
+var CROSS = [
+	[[0, 1], [1, 1], [610, 400]],   // Thế giới tự nhiên ↔ Cơ học
+	[[1, 2], [0, 3], [1450, 380]],  // Quỹ đạo ↔ Thiên văn học (cơ học thiên thể)
+	[[0, 2], [2, 1], [1060, 520]],  // Lượng tử ↔ Vũ trụ học (vũ trụ sơ khai)
+	[[0, 3], [2, 2], [1880, 500]]   // Thiên văn học ↔ Lịch sử vũ trụ
+];
+function chainPos(ci, i) {
+	var c = CHAINS[ci], n = c.labels.length;
+	return [lerp(330, 1590, n === 1 ? 0 : i / (n - 1)), c.y];
+}
+function sh23(shot, t) {
+	bgFill('#0f1113');
+	// Pha 1 (L23): các lĩnh vực nằm trong những ô ngăn cách → vạch ngăn mờ dần
+	var c23 = cue(shot, 'L23');
+	var gridA = 1 - fade(t, c23.end + 0.1, 0.9);
+	if (gridA > 0) {
+		var names = ['Ánh sáng', 'Lượng tử', 'Thiên văn học', 'Cơ học', 'Quỹ đạo', 'Du hành không gian', 'Thiên hà', 'Vũ trụ học', 'Thế giới tự nhiên'];
+		var cellW = 420, cellH = 150, gx = 960 - 1.5 * cellW, gy = 280;
+		var walls = 1 - fade(t, c23.end - 0.9, 0.9);
+		for (var i = 0; i < 9; i++) {
+			var cx = gx + (i % 3) * cellW, cy = gy + Math.floor(i / 3) * cellH;
+			ctx.globalAlpha = gridA * walls; stroke(C.line2, 1.2); ctx.strokeRect(cx + 10, cy + 10, cellW - 20, cellH - 20); ctx.globalAlpha = 1;
+			txt(names[i], cx + cellW / 2, cy + cellH / 2 + 10, { size: 28, align: 'center', color: C.text2, a: gridA * fade(t, 0.1 + i * 0.06, 0.5) });
+		}
+	}
+	drawChains(function (ci) { return cue(shot, CHAINS[ci].cue).t; }, t, 0);
+}
+function drawChains(t0of, t, conv) {
+	CHAINS.forEach(function (c, ci) {
+		var t0 = t0of(ci);
+		for (var i = 0; i < c.labels.length; i++) {
+			var p = chainPos(ci, i), k = fade(t, t0 + 0.15 + i * 0.6, 0.55);
+			if (k <= 0) { continue; }
+			if (i > 0) {
+				var q = chainPos(ci, i - 1); stroke(C.line3, 1.6);
+				var lk = eo(ramp(t, t0 + 0.15 + i * 0.6 - 0.4, 0.5));
+				seg(q[0] + 14, q[1], p[0] - 14, p[1], lk);
+				if (lk >= 1) { ctx.beginPath(); ctx.moveTo(p[0] - 24, p[1] - 6); ctx.lineTo(p[0] - 14, p[1]); ctx.lineTo(p[0] - 24, p[1] + 6); ctx.stroke(); }
+			}
+			dot(p[0], p[1], i === 0 ? 7 : 5.5, i === 0 ? C.accent : C.text);
+			txt(c.labels[i], p[0], ci === 2 ? p[1] + 46 : p[1] - 26, { size: 27, align: 'center', color: i === 0 ? C.accent : C.text, a: k * (1 - conv * 0.25) });
+		}
+	});
+	if (conv > 0) {
+		CROSS.forEach(function (cr, j) {
+			var k = eo(ramp(conv, j * 0.15, 0.55));
+			if (k <= 0) { return; }
+			var a = chainPos(cr[0][0], cr[0][1]), b = chainPos(cr[1][0], cr[1][1]);
+			var pts = [], mx = cr[2][0], my = cr[2][1];
+			for (var u = 0; u <= 1.0001; u += 0.02) { pts.push([(1 - u) * (1 - u) * a[0] + 2 * (1 - u) * u * mx + u * u * b[0], (1 - u) * (1 - u) * a[1] + 2 * (1 - u) * u * my + u * u * b[1]]); }
+			stroke('rgba(212,169,87,0.85)', 1.8); poly(pts, k);
+		});
+	}
+}
+function sh24(shot, t) {
+	bgFill('#0f1113');
+	var conv = ramp(t, 0.05, 1.6);
+	drawChains(function () { return -30; }, 0, conv);
+	tag('NEXUS', 'điểm hội tụ giữa các lĩnh vực', 120, 96, fade(t, 0.6, 0.6));
+}
+
+/* ---------- SH25 — scientific integrity (sơ đồ khái niệm, không số liệu) ---------- */
+function model(x) { return 760 - 430 * (1 - Math.exp(-(x - 300) / 420)); }
+function sh25(shot, t) {
+	bgFill();
+	var L = {}; ['L28', 'L29', 'L30', 'L31', 'L32', 'L33'].forEach(function (id) { L[id] = cue(shot, id).t; });
+	tag('SƠ ĐỒ KHÁI NIỆM', 'không biểu diễn số liệu thực', 120, 96, fade(t, 0.2, 0.7));
+	var ax = fade(t, 0.4, 0.8);
+	stroke(C.line2, 1.5); seg(300, 780, 1640, 780, ax); seg(300, 780, 300, 230, ax);
+	function lbl(main, sub, x, y, a, col) { txt(main, x, y, { mono: true, size: 19, w: 500, color: col || C.text, ls: 2, a: a }); if (sub) { txt(sub, x, y + 30, { size: 22, color: C.muted, a: a }); } }
+	// L29 — DATA + SOURCE
+	var aD = fade(t, L.L29, 0.7);
+	[[420, 10], [600, -14], [780, 9], [960, -11]].forEach(function (p, i) {
+		var y = model(p[0]) + p[1], a = fade(t, L.L29 + i * 0.12, 0.5);
+		ctx.globalAlpha = a; stroke(C.text2, 1.2); seg(p[0], y - 26, p[0], y + 26, 1); ctx.globalAlpha = 1;
+		ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = C.bg; ctx.fillRect(p[0] - 8, y - 8, 16, 16); stroke(C.text, 2); ctx.strokeRect(p[0] - 8, y - 8, 16, 16); ctx.restore();
+	});
+	lbl('DATA', '', 560, model(600) + 70, aD);
+	lbl('SOURCE', 'nguồn: tổ chức, thiết bị, thời điểm', 560, model(600) + 118, fade(t, L.L29 + 0.5, 0.7), C.accent);
+	// L30 — OBSERVATION vs SIMULATION
+	[[510, -16], [690, 12], [870, -9], [1050, 13]].forEach(function (p, i) {
+		var y = model(p[0]) + p[1], a = fade(t, L.L30 + i * 0.12, 0.5);
+		ctx.globalAlpha = a; stroke(C.text2, 1.2); seg(p[0], y - 20, p[0], y + 20, 1); ctx.globalAlpha = 1;
+		dot(p[0], y, 8 * a, C.text);
+	});
+	var curve = []; for (var x = 300; x <= 1180; x += 10) { curve.push([x, model(x)]); }
+	stroke(C.text, 2.2, [14, 10]); poly(curve, eo(ramp(t, L.L30 + 0.6, 1.3))); ctx.setLineDash([]);
+	lbl('OBSERVATION', 'quan sát · đo trực tiếp', 760, model(870) - 100, fade(t, L.L30 + 0.3, 0.7));
+	lbl('SIMULATION', 'kết quả của mô hình', 320, 300, fade(t, L.L30 + 1.2, 0.7));
+	// L31 — ASSUMPTION · CONDITIONS
+	var aA = fade(t, L.L31, 0.7);
+	stroke(C.text2, 1.6, [4, 8]); seg(1180, 780, 1180, 230, eo(ramp(t, L.L31, 0.9))); ctx.setLineDash([]);
+	ctx.save(); ctx.textAlign = 'right'; ctx.restore();
+	txt('ASSUMPTION', 1160, 262, { mono: true, size: 19, w: 500, ls: 2, align: 'right', a: aA });
+	txt('mô hình chỉ đúng trong điều kiện này', 1160, 292, { size: 22, color: C.muted, align: 'right', a: aA });
+	txt('CONDITIONS', 1160, 330, { mono: true, size: 19, w: 500, ls: 2, align: 'right', color: C.accent, a: fade(t, L.L31 + 0.4, 0.6) });
+	// L32 — LIMITATIONS: vùng ngoài giới hạn
+	var aL = fade(t, L.L32, 0.9);
+	if (aL > 0) {
+		ctx.save(); ctx.beginPath(); ctx.rect(1182, 230, 458, 548); ctx.clip(); ctx.globalAlpha = 0.35 * aL; stroke(C.line2, 1.2);
+		for (var hx = 1180 - 400; hx < 1640; hx += 18) { seg(hx, 780, hx + 400, 380, 1); }
+		ctx.restore();
+		lbl('LIMITATIONS', 'ngoài phạm vi kiểm chứng', 1210, 700, aL, C.accent);
+	}
+	// L33 — INFERENCE: vùng bất định mở rộng
+	var aI = eo(ramp(t, L.L33, 1.6));
+	if (aI > 0) {
+		var xe = lerp(1180, 1600, aI);
+		ctx.beginPath(); ctx.moveTo(1180, model(1180));
+		for (var x2 = 1180; x2 <= xe; x2 += 8) { ctx.lineTo(x2, model(x2) - (x2 - 1180) * 0.2); }
+		for (var x3 = xe; x3 >= 1180; x3 -= 8) { ctx.lineTo(x3, model(x3) + (x3 - 1180) * 0.2); }
+		ctx.closePath(); ctx.fillStyle = 'rgba(212,169,87,0.14)'; ctx.fill();
+		var ext = []; for (var x4 = 1180; x4 <= xe; x4 += 8) { ext.push([x4, model(x4)]); }
+		stroke(C.accent, 2.4, [2, 9]); poly(ext, 1); ctx.setLineDash([]);
+		lbl('INFERENCE', 'càng xa dữ liệu, càng bất định', 1210, 540, fade(t, L.L33 + 0.8, 0.8), C.accent);
+	}
+}
+
+/* ---------- SH28 — end card + credit ---------- */
+var CREDITS = [
+	'Hình ảnh',
+	'ESO · ESA and the Planck Collaboration · CERN',
+	'NASA, ESA, S. Beckwith (STScI) and the HUDF Team · NIST · NHGRI',
+	'ESA/Hubble & NASA, RELICS · NASA, ESA, CSA, STScI · NASA',
+	'NASA / Apollo 8 — William Anders · NASA/JPL-Caltech',
+	'Tư liệu lịch sử: Galileo (1610), Kepler (1609), Newton (1687), Hubble (1929)',
+	'Mô phỏng và đồ họa: VNISES'
+];
+function sh28(shot, t) {
+	bgFill('#000');
+	var c = cue(shot, 'L38');
+	var a1 = fade(t, 1.2, 1.0), a2 = fade(t, 2.2, 1.0), a3 = fade(t, 3.2, 1.0);
+	var out = 1 - fade(t, shot.dur - 5.2, 0.9);
+	txt('VNISES', 960, 500, { size: 96, w: 600, align: 'center', ls: 5, a: a1 * out });
+	txt('Vietnam Nexus for Interactive Space Exploration and Science', 960, 578, { size: 28, w: 300, align: 'center', color: C.text2, ls: 1, a: a2 * out });
+	txt('vnises.com', 960, 660, { mono: true, size: 24, align: 'center', color: C.accent, ls: 3, a: a3 * out });
+	var cr = fade(t, shot.dur - 4.4, 0.9) * (1 - fade(t, shot.dur - 0.8, 0.7));
+	if (cr > 0) {
+		CREDITS.forEach(function (s, i) {
+			txt(s, 960, 380 + i * 52, { size: i === 0 ? 20 : 24, w: i === 0 ? 500 : 300, mono: false, align: 'center', color: i === 0 ? C.muted : C.text2, ls: i === 0 ? 3 : 0, a: cr });
+		});
+	}
+}
+
+var DRAW = { SH13: sh13, SH14: sh14, SH16: sh16, SH17: sh17, SH20: sh20, SH23: sh23, SH24: sh24, SH25: sh25, SH28: sh28 };
+
+window.VNGT = {
+	init: function (timeline, dpr) {
+		TL = timeline; DPR = dpr || 1;
+		cv.width = W * DPR; cv.height = H * DPR; cv.style.width = W + 'px'; cv.style.height = H + 'px';
+		return document.fonts.ready.then(function () {
+			return Promise.all(['300', '400', '500', '600'].map(function (w) { return document.fonts.load(w + ' 40px BVP', 'Ạẫữ VNISES'); })).then(function () { return document.fonts.load('400 20px PlexMono', 'SIMULATION'); });
+		});
+	},
+	render: function (id, t) {
+		var shot = TL.shots.filter(function (s) { return s.id === id; })[0];
+		ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+		ctx.globalAlpha = 1; ctx.setLineDash([]);
+		if (DRAW[id]) { DRAW[id](shot, t); } else { slate(shot, t); }
+	},
+	hasMG: function (id) { return !!DRAW[id]; }
+};
+}());
+</script>
+</body>
+</html>

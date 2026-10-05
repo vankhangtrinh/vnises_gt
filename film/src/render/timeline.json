@@ -1,0 +1,1623 @@
+{
+ "fps": 25,
+ "total": 175.48,
+ "lines": [
+  {
+   "id": "L01",
+   "vi": "Có những câu hỏi đã đi cùng con người từ rất lâu.",
+   "en": "Some questions have stayed with us for a very long time.",
+   "rate": 3.9,
+   "gap": 0.8,
+   "note": "",
+   "syl": 12,
+   "start": 1.52,
+   "end": 4.56,
+   "dur": 3.0399999999999996
+  },
+  {
+   "id": "L02",
+   "vi": "Vũ trụ bắt đầu như thế nào?",
+   "en": "How did the universe begin?",
+   "rate": 3.8,
+   "gap": 0.9,
+   "note": "",
+   "syl": 7,
+   "start": 5.36,
+   "end": 7.2,
+   "dur": 1.8399999999999999
+  },
+  {
+   "id": "L03",
+   "vi": "Sự sống xuất hiện ra sao?",
+   "en": "How did life arise?",
+   "rate": 3.8,
+   "gap": 0.9,
+   "note": "",
+   "syl": 6,
+   "start": 8.08,
+   "end": 9.68,
+   "dur": 1.5999999999999996
+  },
+  {
+   "id": "L04",
+   "vi": "Vật chất, không gian và thời gian được tổ chức bởi những quy luật nào?",
+   "en": "What laws organize matter, space and time?",
+   "rate": 4.1,
+   "gap": 0.6,
+   "note": "",
+   "syl": 15,
+   "start": 10.56,
+   "end": 14.44,
+   "dur": 3.879999999999999
+  },
+  {
+   "id": "L05",
+   "vi": "Và vị trí của chúng ta trong vũ trụ rộng lớn này là gì?",
+   "en": "And what is our place in this vast universe?",
+   "rate": 4.0,
+   "gap": 1.1,
+   "note": "",
+   "syl": 14,
+   "start": 15.04,
+   "end": 18.56,
+   "dur": 3.5199999999999996
+  },
+  {
+   "id": "L06",
+   "vi": "Khoa học đã đưa con người tiến rất xa trong việc trả lời những câu hỏi ấy.",
+   "en": "Science has taken us a long way toward answering them.",
+   "rate": 4.3,
+   "gap": 0.35,
+   "note": "",
+   "syl": 17,
+   "start": 19.68,
+   "end": 23.6,
+   "dur": 3.9200000000000017
+  },
+  {
+   "id": "L07a",
+   "vi": "Chúng ta đã nhìn sâu vào cấu trúc của vật chất,",
+   "en": "We have looked deep into the structure of matter,",
+   "rate": 4.3,
+   "gap": 0.25,
+   "note": "",
+   "syl": 11,
+   "start": 23.96,
+   "end": 26.72,
+   "dur": 2.759999999999998
+  },
+  {
+   "id": "L07b",
+   "vi": "đọc được thông tin chứa trong sự sống,",
+   "en": "read the information carried by life,",
+   "rate": 4.3,
+   "gap": 0.25,
+   "note": "",
+   "syl": 8,
+   "start": 26.96,
+   "end": 29.04,
+   "dur": 2.0799999999999983
+  },
+  {
+   "id": "L07c",
+   "vi": "quan sát ánh sáng đã đi qua vũ trụ hàng tỷ năm,",
+   "en": "seen light that crossed the universe over billions of years,",
+   "rate": 4.3,
+   "gap": 0.25,
+   "note": "",
+   "syl": 12,
+   "start": 29.28,
+   "end": 32.32,
+   "dur": 3.039999999999999
+  },
+  {
+   "id": "L07d",
+   "vi": "và đưa thiết bị của mình ra ngoài Trái Đất.",
+   "en": "and sent our instruments beyond the Earth.",
+   "rate": 4.3,
+   "gap": 0.7,
+   "note": "Rút gọn nhẹ: 'những thiết bị của mình' → 'thiết bị của mình' (nhịp nói).",
+   "syl": 10,
+   "start": 32.56,
+   "end": 34.88,
+   "dur": 2.3200000000000003
+  },
+  {
+   "id": "L08",
+   "vi": "Nhưng mỗi khám phá mới lại mở ra những câu hỏi mới.",
+   "en": "But every discovery opens new questions.",
+   "rate": 4.1,
+   "gap": 1.0,
+   "note": "",
+   "syl": 12,
+   "start": 35.6,
+   "end": 38.52,
+   "dur": 2.9200000000000017
+  },
+  {
+   "id": "L09",
+   "vi": "Ta thường nói về khám phá vũ trụ như thể đang quan sát một thế giới bên ngoài.",
+   "en": "We tend to speak of exploring the universe as if it were a world outside us.",
+   "rate": 4.3,
+   "gap": 0.7,
+   "note": "Rút gọn nhẹ từ baseline (bỏ 'Chúng ta… về việc… mình… ở'); ý giữ nguyên.",
+   "syl": 18,
+   "start": 39.52,
+   "end": 43.72,
+   "dur": 4.199999999999996
+  },
+  {
+   "id": "L10",
+   "vi": "Nhưng con người chưa bao giờ đứng ngoài tự nhiên.",
+   "en": "But we have never stood outside nature.",
+   "rate": 3.5,
+   "gap": 2.0,
+   "note": "Câu then chốt: đọc chậm, nhấn 'chưa bao giờ'; 2 giây im lặng sau câu.",
+   "syl": 10,
+   "start": 44.4,
+   "end": 47.28,
+   "dur": 2.8800000000000026
+  },
+  {
+   "id": "L11",
+   "vi": "Vật chất tạo nên chúng ta cũng là vật chất của vũ trụ.",
+   "en": "The matter we are made of is the matter of the universe.",
+   "rate": 3.8,
+   "gap": 0.8,
+   "note": "",
+   "syl": 13,
+   "start": 49.28,
+   "end": 52.72,
+   "dur": 3.4399999999999977
+  },
+  {
+   "id": "L12",
+   "vi": "Những quy luật ta tìm cách hiểu cũng chính là quy luật của thế giới ta đang sống.",
+   "en": "The laws we try to understand are the laws of the very world we live in.",
+   "rate": 4.2,
+   "gap": 0.8,
+   "note": "Rút gọn nhẹ từ baseline (bỏ lặp 'mà chúng ta', 'trong đó'); ý giữ nguyên.",
+   "syl": 18,
+   "start": 53.52,
+   "end": 57.8,
+   "dur": 4.279999999999994
+  },
+  {
+   "id": "L13",
+   "vi": "Tri thức khoa học không được tạo nên trong một khoảnh khắc.",
+   "en": "Scientific knowledge is not made in a single moment.",
+   "rate": 4.2,
+   "gap": 0.35,
+   "note": "",
+   "syl": 12,
+   "start": 58.6,
+   "end": 61.44,
+   "dur": 2.8399999999999963
+  },
+  {
+   "id": "L14",
+   "vi": "Nó được xây dựng qua nhiều thế hệ — từ quan sát, câu hỏi, thí nghiệm, mô hình, dữ liệu, từ những sai lầm được nhận ra và những hiểu biết được sửa lại.",
+   "en": "It is built over generations — from observation, questions, experiments, models and data; from mistakes recognized and understanding revised.",
+   "rate": 4.4,
+   "gap": 0.45,
+   "note": "Thêm 'từ' trước 'những sai lầm' để tách nhịp liệt kê; không thêm ý.",
+   "syl": 33,
+   "start": 61.8,
+   "end": 70.68,
+   "dur": 8.88000000000001
+  },
+  {
+   "id": "L15",
+   "vi": "Mỗi thế hệ tiếp nhận những gì đã có, kiểm tra lại, và bổ sung một phần mới.",
+   "en": "Each generation takes what came before, tests it again, and adds something new.",
+   "rate": 4.3,
+   "gap": 1.1,
+   "note": "Rút gọn nhẹ ('kiểm tra lại chúng' → 'kiểm tra lại'; bỏ 'thêm').",
+   "syl": 18,
+   "start": 71.12,
+   "end": 75.76,
+   "dur": 4.640000000000001
+  },
+  {
+   "id": "L16",
+   "vi": "VNISES được xây dựng với mong muốn đóng góp một phần vào hành trình ấy.",
+   "en": "VNISES was created in the hope of contributing a part to that journey.",
+   "rate": 4.0,
+   "gap": 1.0,
+   "note": "",
+   "syl": 15,
+   "start": 76.88,
+   "end": 80.6,
+   "dur": 3.719999999999999
+  },
+  {
+   "id": "L17",
+   "vi": "Ở đây, khoa học không chỉ được đọc.",
+   "en": "Here, science is not only something to read.",
+   "rate": 3.9,
+   "gap": 0.5,
+   "note": "",
+   "syl": 8,
+   "start": 81.6,
+   "end": 83.88,
+   "dur": 2.280000000000001
+  },
+  {
+   "id": "L18",
+   "vi": "Một hiện tượng có thể được quan sát.",
+   "en": "A phenomenon can be observed.",
+   "rate": 3.9,
+   "gap": 0.8,
+   "note": "",
+   "syl": 8,
+   "start": 84.4,
+   "end": 86.44,
+   "dur": 2.039999999999992
+  },
+  {
+   "id": "L19",
+   "vi": "Một mô hình có thể được thay đổi.",
+   "en": "A model can be changed.",
+   "rate": 3.9,
+   "gap": 1.0,
+   "note": "",
+   "syl": 8,
+   "start": 87.24,
+   "end": 89.28,
+   "dur": 2.0400000000000063
+  },
+  {
+   "id": "L20",
+   "vi": "Một giả định có thể được kiểm tra.",
+   "en": "An assumption can be tested.",
+   "rate": 3.9,
+   "gap": 1.1,
+   "note": "",
+   "syl": 8,
+   "start": 90.28,
+   "end": 92.32,
+   "dur": 2.039999999999992
+  },
+  {
+   "id": "L21",
+   "vi": "Một kết quả có thể được so sánh.",
+   "en": "A result can be compared.",
+   "rate": 3.9,
+   "gap": 0.9,
+   "note": "",
+   "syl": 8,
+   "start": 93.4,
+   "end": 95.48,
+   "dur": 2.0799999999999983
+  },
+  {
+   "id": "L22",
+   "vi": "Và một câu hỏi có thể dẫn sang một câu hỏi sâu hơn.",
+   "en": "And one question can lead to a deeper one.",
+   "rate": 4.0,
+   "gap": 0.9,
+   "note": "",
+   "syl": 13,
+   "start": 96.4,
+   "end": 99.64,
+   "dur": 3.239999999999995
+  },
+  {
+   "id": "L23",
+   "vi": "Bởi khoa học không tồn tại trong những ngăn riêng biệt.",
+   "en": "Because science does not live in separate compartments.",
+   "rate": 4.1,
+   "gap": 0.5,
+   "note": "",
+   "syl": 11,
+   "start": 100.56,
+   "end": 103.24,
+   "dur": 2.6799999999999926
+  },
+  {
+   "id": "L24",
+   "vi": "Một câu hỏi về ánh sáng có thể dẫn đến lượng tử, rồi đến thiên văn học.",
+   "en": "A question about light can lead to quantum physics, and then to astronomy.",
+   "rate": 4.2,
+   "gap": 0.6,
+   "note": "",
+   "syl": 17,
+   "start": 103.76,
+   "end": 108.0,
+   "dur": 4.239999999999995
+  },
+  {
+   "id": "L25",
+   "vi": "Một bài toán chuyển động có thể dẫn đến quỹ đạo và du hành không gian.",
+   "en": "A problem of motion can lead to orbits, and to spaceflight.",
+   "rate": 4.2,
+   "gap": 0.6,
+   "note": "",
+   "syl": 16,
+   "start": 108.6,
+   "end": 112.4,
+   "dur": 3.8000000000000114
+  },
+  {
+   "id": "L26",
+   "vi": "Một quan sát về thiên hà có thể mở ra câu hỏi về lịch sử của toàn bộ vũ trụ.",
+   "en": "An observation of a galaxy can open questions about the history of the entire universe.",
+   "rate": 4.2,
+   "gap": 0.8,
+   "note": "",
+   "syl": 20,
+   "start": 113.0,
+   "end": 117.76,
+   "dur": 4.760000000000005
+  },
+  {
+   "id": "L27",
+   "vi": "Đó là ý nghĩa của Nexus.",
+   "en": "That is what Nexus means.",
+   "rate": 3.6,
+   "gap": 1.3,
+   "note": "‘Nexus’ đọc /ˈnɛk.səs/ (néc-xợt), không Việt hóa thành ‘nếch-xút’.",
+   "syl": 6,
+   "start": 118.56,
+   "end": 120.24,
+   "dur": 1.6799999999999926
+  },
+  {
+   "id": "L28",
+   "vi": "Nhưng khám phá chỉ có ý nghĩa khi đi cùng khả năng kiểm chứng.",
+   "en": "But discovery only has meaning when it can be verified.",
+   "rate": 4.1,
+   "gap": 0.8,
+   "note": "",
+   "syl": 14,
+   "start": 121.52,
+   "end": 124.96,
+   "dur": 3.4399999999999977
+  },
+  {
+   "id": "L29",
+   "vi": "Dữ liệu cần có nguồn.",
+   "en": "Data needs a source.",
+   "rate": 3.7,
+   "gap": 0.6,
+   "note": "",
+   "syl": 5,
+   "start": 125.76,
+   "end": 127.12,
+   "dur": 1.3599999999999994
+  },
+  {
+   "id": "L30",
+   "vi": "Mô phỏng phải được phân biệt với quan sát.",
+   "en": "Simulation must be distinguished from observation.",
+   "rate": 3.9,
+   "gap": 0.6,
+   "note": "",
+   "syl": 9,
+   "start": 127.72,
+   "end": 130.04,
+   "dur": 2.319999999999993
+  },
+  {
+   "id": "L31",
+   "vi": "Giả định cần được nhận diện.",
+   "en": "Assumptions need to be identified.",
+   "rate": 3.7,
+   "gap": 0.6,
+   "note": "",
+   "syl": 6,
+   "start": 130.64,
+   "end": 132.28,
+   "dur": 1.6400000000000148
+  },
+  {
+   "id": "L32",
+   "vi": "Giới hạn của mô hình cần được thể hiện.",
+   "en": "A model's limits need to be shown.",
+   "rate": 3.9,
+   "gap": 0.6,
+   "note": "",
+   "syl": 9,
+   "start": 132.88,
+   "end": 135.2,
+   "dur": 2.319999999999993
+  },
+  {
+   "id": "L33",
+   "vi": "Và khi chưa có đủ bằng chứng, sự chưa chắc chắn cũng cần được nói rõ.",
+   "en": "And when the evidence is not yet enough, the uncertainty must be stated clearly.",
+   "rate": 4.1,
+   "gap": 1.1,
+   "note": "",
+   "syl": 16,
+   "start": 135.8,
+   "end": 139.92,
+   "dur": 4.119999999999976
+  },
+  {
+   "id": "L34",
+   "vi": "VNISES không được xây dựng để làm khoa học trông đơn giản hơn thực tế, cũng không để làm nó phức tạp thêm.",
+   "en": "VNISES is not built to make science look simpler than it is — nor to make it more complicated.",
+   "rate": 4.3,
+   "gap": 0.6,
+   "note": "Gộp hai câu baseline thành một để tránh cặp câu đối xứng; ý giữ nguyên.",
+   "syl": 23,
+   "start": 141.0,
+   "end": 146.6,
+   "dur": 5.599999999999994
+  },
+  {
+   "id": "L35",
+   "vi": "Mục tiêu là làm cho con đường từ quan sát đến hiểu biết trở nên rõ ràng hơn.",
+   "en": "The aim is to make the path from observation to understanding clearer.",
+   "rate": 4.1,
+   "gap": 1.5,
+   "note": "",
+   "syl": 18,
+   "start": 147.2,
+   "end": 151.6,
+   "dur": 4.400000000000006
+  },
+  {
+   "id": "L36",
+   "vi": "Có thể sẽ luôn còn những câu hỏi vượt quá hiểu biết hiện tại của chúng ta.",
+   "en": "There may always be questions beyond what we currently understand.",
+   "rate": 3.8,
+   "gap": 0.9,
+   "note": "",
+   "syl": 17,
+   "start": 153.12,
+   "end": 157.56,
+   "dur": 4.439999999999998
+  },
+  {
+   "id": "L37",
+   "vi": "Và chính vì thế, hành trình khám phá vẫn tiếp tục.",
+   "en": "And that is why the journey of discovery continues.",
+   "rate": 3.5,
+   "gap": 1.2,
+   "note": "Kết câu hạ giọng tự nhiên, không ngân.",
+   "syl": 11,
+   "start": 158.48,
+   "end": 161.84,
+   "dur": 3.3600000000000136
+  },
+  {
+   "id": "L38",
+   "vi": "VNISES. Vietnam Nexus for Interactive Space Exploration and Science.",
+   "en": "VNISES. Vietnam Nexus for Interactive Space Exploration and Science.",
+   "rate": 3.3,
+   "gap": 2.0,
+   "note": "Đọc tên mở rộng bằng tiếng Anh chuẩn, chậm, không nhấn kiểu quảng cáo.",
+   "syl": 18,
+   "start": 163.04,
+   "end": 168.48,
+   "dur": 5.439999999999998
+  }
+ ],
+ "shots": [
+  {
+   "id": "SH01",
+   "tin": 0.0,
+   "tout": 4.96,
+   "dur": 4.96,
+   "layer": "A",
+   "trans_in": "fade from black 1,6 s",
+   "assets": [
+    "A01"
+   ],
+   "visual": "Bầu trời đêm thật trên đài quan sát. Khung hình rộng, đường chân trời ở 1/4 dưới. Ảnh mở dần từ màn đen.",
+   "motion": "Push-in 1,00× → 1,05× tuyến tính suốt shot. Không xoay.",
+   "onscreen": "Credit nhỏ góc dưới trái (giây 1,5–4,5 của shot): 'Ảnh: ESO/<tác giả theo trang ảnh>'.",
+   "asset_info": [
+    {
+     "id": "A01",
+     "layer": "A",
+     "desc": "Ảnh chụp bầu trời đêm (dải Ngân Hà) trên một đài quan sát của ESO ở Chile, có công trình kính thiên văn trong khung hình",
+     "source": "ESO Image Archive",
+     "org": "ESO (European Southern Observatory)",
+     "url": "https://www.eso.org/public/images/",
+     "license": "CC BY 4.0 (theo chính sách ảnh công khai của ESO; xác nhận trên trang của từng ảnh)",
+     "credit": "ESO/<tên nhiếp ảnh gia theo trang ảnh>",
+     "status": "TO SELECT + VERIFY",
+     "note": "Chọn ảnh chụp thật (không phải ảnh ghép), phơi sáng tự nhiên, không xử lý màu quá mức. Ghi đúng mã ảnh ESO khi tải."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L01",
+     "t": 1.52,
+     "end": 4.56
+    }
+   ]
+  },
+  {
+   "id": "SH02",
+   "tin": 4.96,
+   "tout": 7.68,
+   "dur": 2.7199999999999998,
+   "layer": "A",
+   "trans_in": "dissolve:0.8",
+   "assets": [
+    "A02"
+   ],
+   "visual": "Bản đồ CMB của Planck (phép chiếu Mollweide) đặt giữa nền đen, chiếm ~70% chiều ngang.",
+   "motion": "Tĩnh, scale 1,00 → 1,03.",
+   "onscreen": "Credit nhỏ: 'Bức xạ nền vi sóng vũ trụ — ESA và Planck Collaboration'.",
+   "asset_info": [
+    {
+     "id": "A02",
+     "layer": "A",
+     "desc": "Bản đồ toàn bầu trời bức xạ nền vi sóng vũ trụ (CMB) của vệ tinh Planck",
+     "source": "ESA Multimedia — Planck",
+     "org": "ESA and the Planck Collaboration",
+     "url": "https://www.esa.int/ESA_Multimedia/Images (tìm: Planck CMB)",
+     "license": "ESA Standard Licence hoặc CC BY-SA 3.0 IGO tùy ảnh — kiểm tra trên trang ảnh",
+     "credit": "ESA and the Planck Collaboration",
+     "status": "TO SELECT + VERIFY",
+     "note": "Dùng bản đồ chính thức (phép chiếu Mollweide), không tô màu lại."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L02",
+     "t": 0.4,
+     "end": 2.24
+    }
+   ]
+  },
+  {
+   "id": "SH03",
+   "tin": 7.68,
+   "tout": 10.16,
+   "dur": 2.4800000000000004,
+   "layer": "A",
+   "trans_in": "dissolve:0.8",
+   "assets": [
+    "A03"
+   ],
+   "visual": "Stromatolite ở vùng nước nông, ánh sáng tự nhiên, cận cảnh trung bình.",
+   "motion": "Pan ngang rất chậm (2% chiều rộng).",
+   "onscreen": "Credit nhỏ theo nguồn được chọn.",
+   "asset_info": [
+    {
+     "id": "A03",
+     "layer": "A",
+     "desc": "Ảnh stromatolite (cấu trúc do vi sinh vật tạo thành), ví dụ Hamelin Pool, vịnh Shark (Tây Úc)",
+     "source": "Kho ảnh của cơ quan khoa học/địa chất (ưu tiên USGS, Geoscience Australia) hoặc Wikimedia Commons có licence rõ ràng",
+     "org": "UNKNOWN — chọn khi tải",
+     "url": "UNKNOWN",
+     "license": "UNKNOWN — chỉ dùng nếu PD, CC0 hoặc CC BY",
+     "credit": "Theo nguồn được chọn",
+     "status": "UNKNOWN — TO SELECT",
+     "note": "Phương án thay thế nếu không có licence rõ: ảnh vệ tinh Trái Đất (NASA, public domain) cho câu 'Sự sống xuất hiện ra sao?'."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L03",
+     "t": 0.4,
+     "end": 2.0
+    }
+   ]
+  },
+  {
+   "id": "SH04",
+   "tin": 10.16,
+   "tout": 14.64,
+   "dur": 4.48,
+   "layer": "A",
+   "trans_in": "dissolve:0.8",
+   "assets": [
+    "A04"
+   ],
+   "visual": "Event display va chạm proton–proton trong detector của LHC — các vết hạt tỏa ra từ tâm.",
+   "motion": "Push-in chậm vào điểm va chạm 1,00 → 1,08.",
+   "onscreen": "Credit nhỏ: 'CERN / <tên thí nghiệm>'.",
+   "asset_info": [
+    {
+     "id": "A04",
+     "layer": "A",
+     "desc": "Event display va chạm proton–proton thật từ thí nghiệm CMS hoặc ATLAS tại LHC",
+     "source": "CERN Document Server (cds.cern.ch)",
+     "org": "CERN / CMS Collaboration hoặc ATLAS Collaboration",
+     "url": "https://cds.cern.ch/",
+     "license": "CERN: phần lớn ảnh công bố theo CC BY 4.0 — kiểm tra từng bản ghi",
+     "credit": "CERN / CMS Collaboration (hoặc ATLAS Experiment © CERN theo bản ghi)",
+     "status": "TO SELECT + VERIFY",
+     "note": "Chọn event display đã được thí nghiệm công bố chính thức; không dùng ảnh minh họa nghệ thuật."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L04",
+     "t": 0.4,
+     "end": 4.28
+    }
+   ]
+  },
+  {
+   "id": "SH05",
+   "tin": 14.64,
+   "tout": 23.56,
+   "dur": 8.919999999999998,
+   "layer": "A",
+   "trans_in": "dissolve:1.0",
+   "assets": [
+    "A05"
+   ],
+   "visual": "Hubble Ultra Deep Field — hàng nghìn thiên hà. Giữ lâu để người xem nhìn.",
+   "motion": "Push-in rất chậm 1,00 → 1,12 qua cả hai câu VO.",
+   "onscreen": "Credit nhỏ: 'NASA, ESA, S. Beckwith (STScI) và HUDF Team'.",
+   "asset_info": [
+    {
+     "id": "A05",
+     "layer": "A",
+     "desc": "Hubble Ultra Deep Field (2004)",
+     "source": "ESA/Hubble — heic0406a",
+     "org": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+     "url": "https://esahubble.org/images/heic0406a/",
+     "license": "CC BY 4.0 (ESA/Hubble)",
+     "credit": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+     "status": "VERIFY",
+     "note": "Dùng bản full-resolution; push-in chậm không quá 1,15×."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L05",
+     "t": 0.4,
+     "end": 3.92
+    },
+    {
+     "id": "L06",
+     "t": 5.04,
+     "end": 8.96
+    }
+   ]
+  },
+  {
+   "id": "SH06",
+   "tin": 23.56,
+   "tout": 26.56,
+   "dur": 3.0,
+   "layer": "A",
+   "trans_in": "cut",
+   "assets": [
+    "A06"
+   ],
+   "visual": "Ảnh STM các nguyên tử trên bề mặt tinh thể — lưới đều đặn.",
+   "motion": "Tĩnh, scale 1,00 → 1,02.",
+   "onscreen": "Credit nhỏ: 'Ảnh STM — NIST'.",
+   "asset_info": [
+    {
+     "id": "A06",
+     "layer": "A",
+     "desc": "Ảnh kính hiển vi quét xuyên hầm (STM) cho thấy từng nguyên tử trên bề mặt tinh thể",
+     "source": "NIST (U.S. National Institute of Standards and Technology) — kho ảnh",
+     "org": "NIST",
+     "url": "https://www.nist.gov/",
+     "license": "Tác phẩm của chính phủ Hoa Kỳ thường thuộc public domain — xác nhận ảnh không do bên thứ ba giữ bản quyền",
+     "credit": "NIST",
+     "status": "TO SELECT + VERIFY",
+     "note": "Chú thích phải nói rõ đây là ảnh STM (dữ liệu dòng xuyên hầm được hiển thị thành ảnh), không phải 'ảnh chụp' quang học."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L07a",
+     "t": 0.4,
+     "end": 3.16
+    }
+   ]
+  },
+  {
+   "id": "SH07",
+   "tin": 26.56,
+   "tout": 28.88,
+   "dur": 2.3200000000000003,
+   "layer": "A",
+   "trans_in": "cut",
+   "assets": [
+    "A07"
+   ],
+   "visual": "Chromatogram giải trình tự DNA — các đỉnh màu theo thứ tự base.",
+   "motion": "Pan ngang chậm theo chiều đọc trình tự.",
+   "onscreen": "Credit nhỏ: 'NHGRI'.",
+   "asset_info": [
+    {
+     "id": "A07",
+     "layer": "A",
+     "desc": "Biểu đồ giải trình tự DNA (chromatogram) hoặc ảnh thiết bị giải trình tự",
+     "source": "NHGRI — genome.gov image gallery",
+     "org": "National Human Genome Research Institute",
+     "url": "https://www.genome.gov/",
+     "license": "Public domain (U.S. Government) — xác nhận trên trang ảnh",
+     "credit": "Courtesy: National Human Genome Research Institute",
+     "status": "TO SELECT + VERIFY",
+     "note": "Không dùng hình DNA phát sáng 3D. Chromatogram là dữ liệu đo thật."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L07b",
+     "t": 0.4,
+     "end": 2.48
+    }
+   ]
+  },
+  {
+   "id": "SH08",
+   "tin": 28.88,
+   "tout": 32.16,
+   "dur": 3.2799999999999976,
+   "layer": "A",
+   "trans_in": "cut",
+   "assets": [
+    "A08"
+   ],
+   "visual": "Ảnh Hubble của cụm SMACS 0723.",
+   "motion": "Tĩnh, đặt sẵn khung để khớp với SH10.",
+   "onscreen": "Credit nhỏ: 'ESA/Hubble & NASA, RELICS'.",
+   "asset_info": [
+    {
+     "id": "A08",
+     "layer": "A",
+     "desc": "Ảnh Hubble của cụm thiên hà SMACS 0723 (chương trình RELICS)",
+     "source": "ESA/Hubble",
+     "org": "ESA/Hubble & NASA, RELICS",
+     "url": "https://esahubble.org/images/ (tìm: SMACS 0723)",
+     "license": "CC BY 4.0 (ESA/Hubble)",
+     "credit": "ESA/Hubble & NASA, RELICS",
+     "status": "TO SELECT + VERIFY",
+     "note": "Phải cùng trường nhìn với A10 để làm phép so sánh ở SH10. Căn chỉnh (register) hai ảnh theo các sao/thiên hà sáng."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L07c",
+     "t": 0.4,
+     "end": 3.44
+    }
+   ]
+  },
+  {
+   "id": "SH09",
+   "tin": 32.16,
+   "tout": 35.2,
+   "dur": 3.0400000000000063,
+   "layer": "A",
+   "trans_in": "cut",
+   "assets": [
+    "A09"
+   ],
+   "visual": "Gương chính của JWST trong phòng sạch — thấy kỹ sư để cảm nhận tỉ lệ (người thật, ảnh thật).",
+   "motion": "Tilt nhẹ từ dưới lên.",
+   "onscreen": "Credit nhỏ: 'NASA/<nhiếp ảnh gia>'.",
+   "asset_info": [
+    {
+     "id": "A09",
+     "layer": "A",
+     "desc": "Ảnh chụp gương chính của Kính viễn vọng James Webb trong phòng sạch",
+     "source": "NASA Image and Video Library",
+     "org": "NASA (ảnh của Chris Gunn hoặc nhiếp ảnh gia NASA khác)",
+     "url": "https://images.nasa.gov/ (tìm: Webb primary mirror cleanroom)",
+     "license": "Public domain theo NASA Media Usage Guidelines (không dùng logo NASA, không ngụ ý NASA bảo trợ)",
+     "credit": "NASA/<nhiếp ảnh gia>",
+     "status": "TO SELECT + VERIFY",
+     "note": "Ảnh chụp thật — không dùng ảnh render của tàu trong không gian (là hình minh họa)."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L07d",
+     "t": 0.4,
+     "end": 2.72
+    }
+   ]
+  },
+  {
+   "id": "SH10",
+   "tin": 35.2,
+   "tout": 38.92,
+   "dur": 3.719999999999999,
+   "layer": "A",
+   "trans_in": "cut",
+   "assets": [
+    "A08",
+    "A10"
+   ],
+   "visual": "Trở lại cùng trường nhìn SMACS 0723: wipe dọc chậm từ ảnh Hubble sang ảnh Webb — nhiều thiên hà mờ và cung thấu kính hấp dẫn xuất hiện.",
+   "motion": "Wipe trái → phải trong 3,5 s, đường wipe là một vạch mảnh 1 px màu trung tính. Sau wipe giữ tĩnh.",
+   "onscreen": "Nhãn nhỏ hai bên đường wipe: 'Hubble' / 'Webb'. Credit cả hai nguồn.",
+   "asset_info": [
+    {
+     "id": "A08",
+     "layer": "A",
+     "desc": "Ảnh Hubble của cụm thiên hà SMACS 0723 (chương trình RELICS)",
+     "source": "ESA/Hubble",
+     "org": "ESA/Hubble & NASA, RELICS",
+     "url": "https://esahubble.org/images/ (tìm: SMACS 0723)",
+     "license": "CC BY 4.0 (ESA/Hubble)",
+     "credit": "ESA/Hubble & NASA, RELICS",
+     "status": "TO SELECT + VERIFY",
+     "note": "Phải cùng trường nhìn với A10 để làm phép so sánh ở SH10. Căn chỉnh (register) hai ảnh theo các sao/thiên hà sáng."
+    },
+    {
+     "id": "A10",
+     "layer": "A",
+     "desc": "Webb's First Deep Field — SMACS 0723 (NIRCam, công bố 07/2022)",
+     "source": "STScI / webbtelescope.org; ESA/Webb",
+     "org": "NASA, ESA, CSA, STScI",
+     "url": "https://webbtelescope.org/ (tìm: Webb's First Deep Field)",
+     "license": "NASA: public domain theo hướng dẫn sử dụng; ESA/Webb: CC BY 4.0 — kiểm tra trên trang ảnh",
+     "credit": "NASA, ESA, CSA, STScI",
+     "status": "VERIFY",
+     "note": "Wipe so sánh với A08 phải giữ nguyên tỉ lệ và căn chỉnh."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L08",
+     "t": 0.4,
+     "end": 3.32
+    }
+   ]
+  },
+  {
+   "id": "SH11",
+   "tin": 38.92,
+   "tout": 44.0,
+   "dur": 5.079999999999998,
+   "layer": "A",
+   "trans_in": "dip:1.0",
+   "assets": [
+    "A11"
+   ],
+   "visual": "Earthrise — Trái Đất trên đường chân trời Mặt Trăng.",
+   "motion": "Tĩnh, scale 1,00 → 1,04.",
+   "onscreen": "Credit nhỏ: 'NASA / Apollo 8 — William Anders, 1968'.",
+   "asset_info": [
+    {
+     "id": "A11",
+     "layer": "A",
+     "desc": "Earthrise — Apollo 8, 24/12/1968, ảnh AS08-14-2383",
+     "source": "NASA Image and Video Library",
+     "org": "NASA (ảnh chụp bởi phi hành gia William Anders)",
+     "url": "https://images.nasa.gov/ (tìm: AS08-14-2383)",
+     "license": "Public domain theo NASA Media Usage Guidelines",
+     "credit": "NASA / Apollo 8 — William Anders",
+     "status": "VERIFY",
+     "note": "Dùng bản scan gốc định hướng theo bản lưu trữ; không xoay/tô màu lại."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L09",
+     "t": 0.6,
+     "end": 4.8
+    }
+   ]
+  },
+  {
+   "id": "SH12",
+   "tin": 44.0,
+   "tout": 48.4,
+   "dur": 4.399999999999999,
+   "layer": "A",
+   "trans_in": "dissolve:1.6",
+   "assets": [
+    "A12"
+   ],
+   "visual": "Pale Blue Dot — Trái Đất là một điểm sáng rất nhỏ trong vệt sáng tán xạ. Khung rộng, điểm Trái Đất ở 1/3 phải.",
+   "motion": "Push-in rất chậm 1,00 → 1,10 hướng về điểm Trái Đất; tiếp tục trong 2 giây im lặng sau câu.",
+   "onscreen": "Credit nhỏ: 'Voyager 1, 1990 — NASA/JPL-Caltech (xử lý lại năm 2020)'.",
+   "asset_info": [
+    {
+     "id": "A12",
+     "layer": "A",
+     "desc": "Pale Blue Dot Revisited (2020) — ảnh Voyager 1 năm 1990 được xử lý lại",
+     "source": "NASA/JPL Photojournal — PIA23645",
+     "org": "NASA/JPL-Caltech",
+     "url": "https://photojournal.jpl.nasa.gov/catalog/PIA23645",
+     "license": "Public domain theo chính sách của NASA/JPL (ghi credit)",
+     "credit": "NASA/JPL-Caltech",
+     "status": "VERIFY",
+     "note": "Chú thích nên ghi 'Voyager 1, 1990 — xử lý lại năm 2020'. Không tăng độ sáng điểm Trái Đất."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L10",
+     "t": 0.4,
+     "end": 3.28
+    }
+   ]
+  },
+  {
+   "id": "SH13",
+   "tin": 48.4,
+   "tout": 53.12,
+   "dur": 4.719999999999999,
+   "layer": "C",
+   "trans_in": "dissolve:1.2",
+   "assets": [
+    "C01"
+   ],
+   "visual": "Nền đen. Sáu ký hiệu nguyên tố xuất hiện lần lượt: H, O, C, N, Ca, P. Hai đường mảnh nối về hai nhãn nguồn gốc: H → 'vũ trụ sơ khai'; O C N Ca P → 'các ngôi sao và vụ nổ sao'.",
+   "motion": "Mỗi ký hiệu fade-in 0,6 s, cách nhau 0,35 s; đường nối vẽ dần 1,2 s.",
+   "onscreen": "Các ký hiệu + hai nhãn nguồn gốc (xem 09_Motion_Graphics_Spec).",
+   "asset_info": [
+    {
+     "id": "C01",
+     "layer": "C",
+     "desc": "Các nguyên tố chính trong cơ thể người và nguồn gốc của chúng",
+     "source": "Dựng trong gói (film/src/render)",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": "Không dùng số phần trăm; chỉ phân loại nguồn gốc."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L11",
+     "t": 0.88,
+     "end": 4.32
+    }
+   ]
+  },
+  {
+   "id": "SH14",
+   "tin": 53.12,
+   "tout": 58.0,
+   "dur": 4.880000000000003,
+   "layer": "C",
+   "trans_in": "dissolve:0.8",
+   "assets": [
+    "C02"
+   ],
+   "visual": "Khẩu pháo của Newton: một cung tròn (Trái Đất, sơ đồ), một ngọn núi phóng đại; các quỹ đạo vật ném với vận tốc tăng dần — rơi xuống gần, rơi xa hơn, rồi vòng quanh thành quỹ đạo.",
+   "motion": "Mỗi quỹ đạo vẽ dần theo thời gian thực của mô phỏng; quỹ đạo cuối khép kín.",
+   "onscreen": "Nhãn nhỏ góc trên: 'SIMULATION · cùng một định luật hấp dẫn'.",
+   "asset_info": [
+    {
+     "id": "C02",
+     "layer": "C",
+     "desc": "Khẩu pháo của Newton — quỹ đạo tính bằng tích phân số (mô hình hấp dẫn Newton)",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": "SIMULATION; Trái Đất vẽ dạng sơ đồ, độ cao núi phóng đại."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L12",
+     "t": 0.4,
+     "end": 4.68
+    }
+   ]
+  },
+  {
+   "id": "SH15",
+   "tin": 58.0,
+   "tout": 70.64,
+   "dur": 12.64,
+   "layer": "A",
+   "trans_in": "dip:0.8",
+   "assets": [
+    "A13",
+    "A14",
+    "A15",
+    "A16"
+   ],
+   "visual": "Bàn tư liệu: bốn trang tư liệu thật đặt cạnh nhau theo thời gian — Galileo 1610 (quan sát), Kepler 1609 (mô hình quỹ đạo), Newton 1687 (định luật), Hubble 1929 (dữ liệu). Năm in nhỏ dưới mỗi trang.",
+   "motion": "Camera trượt ngang rất chậm từ trái sang phải trong toàn shot; dừng ở biểu đồ Hubble 1929 khi VO nói 'những hiểu biết được sửa lại'.",
+   "onscreen": "Năm dưới mỗi tư liệu. Tại biểu đồ Hubble: chú thích nhỏ 'Hằng số giãn nở ước tính năm 1929 lớn gấp khoảng 7 lần giá trị ngày nay.'",
+   "asset_info": [
+    {
+     "id": "A13",
+     "layer": "A",
+     "desc": "Hình vẽ Mặt Trăng của Galileo Galilei — Sidereus Nuncius (1610)",
+     "source": "Bản scan từ thư viện có chính sách mở (ví dụ Library of Congress, e-rara.ch)",
+     "org": "Galileo Galilei (1610); thư viện lưu trữ",
+     "url": "https://www.loc.gov/ hoặc https://www.e-rara.ch/ (tìm: Sidereus Nuncius)",
+     "license": "Tác phẩm thuộc public domain; chính sách sử dụng bản scan tùy thư viện — kiểm tra",
+     "credit": "Galileo Galilei, Sidereus Nuncius (1610) — <tên thư viện>",
+     "status": "TO SELECT + VERIFY",
+     "note": "Không dùng bản scan có licence phi thương mại (NC)."
+    },
+    {
+     "id": "A14",
+     "layer": "A",
+     "desc": "Hình quỹ đạo sao Hỏa trong Astronomia Nova của Johannes Kepler (1609)",
+     "source": "Bản scan thư viện có chính sách mở",
+     "org": "Johannes Kepler (1609); thư viện lưu trữ",
+     "url": "https://www.e-rara.ch/ hoặc https://www.loc.gov/ (tìm: Astronomia nova)",
+     "license": "Tác phẩm thuộc public domain; kiểm tra chính sách bản scan",
+     "credit": "Johannes Kepler, Astronomia Nova (1609) — <tên thư viện>",
+     "status": "TO SELECT + VERIFY",
+     "note": ""
+    },
+    {
+     "id": "A15",
+     "layer": "A",
+     "desc": "Trang/hình trong Philosophiæ Naturalis Principia Mathematica của Isaac Newton (1687)",
+     "source": "Bản scan thư viện có chính sách mở",
+     "org": "Isaac Newton (1687); thư viện lưu trữ",
+     "url": "https://www.loc.gov/ hoặc https://www.e-rara.ch/ (tìm: Principia 1687)",
+     "license": "Tác phẩm thuộc public domain; tránh bản scan CC BY-NC (ví dụ một số bộ sưu tập số của đại học)",
+     "credit": "Isaac Newton, Principia (1687) — <tên thư viện>",
+     "status": "TO SELECT + VERIFY",
+     "note": ""
+    },
+    {
+     "id": "A16",
+     "layer": "A",
+     "desc": "Biểu đồ vận tốc – khoảng cách của Edwin Hubble (PNAS, 1929)",
+     "source": "Proceedings of the National Academy of Sciences 15(3):168–173, doi:10.1073/pnas.15.3.168",
+     "org": "Edwin Hubble (1929)",
+     "url": "https://doi.org/10.1073/pnas.15.3.168",
+     "license": "Public domain tại Hoa Kỳ (xuất bản 1929, hết hạn 01/01/2025); tác giả mất 1953 — hết hạn ở các nước áp dụng thời hạn đời tác giả + 70 năm. Xác nhận với tư vấn pháp lý nếu phát hành thương mại.",
+     "credit": "E. Hubble, PNAS 15 (1929)",
+     "status": "VERIFY",
+     "note": "Ví dụ thật về hiểu biết được sửa lại: giá trị hằng số giãn nở Hubble ước tính năm 1929 (~500 km/s/Mpc) lớn gấp khoảng 7 lần các giá trị hiện nay (~67–73)."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L13",
+     "t": 0.6,
+     "end": 3.44
+    },
+    {
+     "id": "L14",
+     "t": 3.8,
+     "end": 12.68
+    }
+   ]
+  },
+  {
+   "id": "SH16",
+   "tin": 70.64,
+   "tout": 75.68,
+   "dur": 5.040000000000006,
+   "layer": "C",
+   "trans_in": "dissolve:1.0",
+   "assets": [
+    "C03"
+   ],
+   "visual": "Bốn tư liệu thu nhỏ thành bốn điểm. Các điểm mới xuất hiện theo từng lớp (mỗi lớp là một thế hệ), mỗi điểm nối về điểm cũ. Mạng lưới lớn dần, đều đặn, không ngẫu nhiên.",
+   "motion": "Mỗi lớp xuất hiện sau 1,1 s; đường nối vẽ dần.",
+   "onscreen": "Không chữ.",
+   "asset_info": [
+    {
+     "id": "C03",
+     "layer": "C",
+     "desc": "Mạng tri thức tích lũy qua nhiều thế hệ → hội tụ thành VNISES",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": "Bố cục tất định, không ngẫu nhiên."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L15",
+     "t": 0.48,
+     "end": 5.12
+    }
+   ]
+  },
+  {
+   "id": "SH17",
+   "tin": 75.68,
+   "tout": 81.2,
+   "dur": 5.519999999999996,
+   "layer": "C",
+   "trans_in": "cut",
+   "assets": [
+    "C04"
+   ],
+   "visual": "Mạng lưới lắng xuống thành hình học đều; một điểm ở trung tâm sáng lên màu vàng ấm. 'VNISES' hiện ở giữa; tên đầy đủ hiện bên dưới sau 1 s.",
+   "motion": "Wordmark fade-in 1,2 s + tracking giảm nhẹ (0,08em → 0,04em). Không scale, không flare.",
+   "onscreen": "VNISES / Vietnam Nexus for Interactive Space Exploration and Science",
+   "asset_info": [
+    {
+     "id": "C04",
+     "layer": "C",
+     "desc": "Lộ diện VNISES",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L16",
+     "t": 1.2,
+     "end": 4.92
+    }
+   ]
+  },
+  {
+   "id": "SH18",
+   "tin": 81.2,
+   "tout": 86.84,
+   "dur": 5.640000000000001,
+   "layer": "B",
+   "trans_in": "dissolve:0.6",
+   "assets": [
+    "B01",
+    "B07"
+   ],
+   "visual": "Footage thật của VNISES: trang giới thiệu cuộn từ tiêu đề 'Khoa học trở nên gần gũi hơn…' xuống hình quỹ đạo Kepler đang chuyển động (nhãn SIMULATION hiện trên UI).",
+   "motion": "Camera giữ ở tiêu đề 1,0 s, trượt có easing tới hình quỹ đạo (1,0–3,4 s), sau đó push-in 1,00 → 1,55 vào hình (3,2–5,8 s). UI vector nên push-in không vỡ hình khi quay ở DPR 2.",
+   "onscreen": "Không thêm chữ ngoài UI.",
+   "asset_info": [
+    {
+     "id": "B01",
+     "layer": "B",
+     "desc": "Module giới thiệu VNISES — cuộn từ tiêu đề tới hình quỹ đạo Kepler đang chuyển động (scene 01)",
+     "source": "vnises-gioithieu.php v1.0 (commit 9d59dd4), render cục bộ",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com sau khi triển khai",
+     "note": "Module đã được xây dựng nhưng CHƯA xác nhận đang chạy trên vnises.com. Không phát hành bản master nếu module chưa lên site."
+    },
+    {
+     "id": "B07",
+     "layer": "B",
+     "desc": "(Tùy chọn, nâng cấp) Module quan sát Mặt Trời / Trạm Vũ trụ trên vnises.com hiển thị ảnh SDO thật kèm nguồn",
+     "source": "vnises.com — Trạm Vũ trụ",
+     "org": "VNISES (dữ liệu: NASA/SDO)",
+     "url": "https://vnises.com",
+     "license": "UI: VNISES; ảnh SDO: theo chính sách dữ liệu SDO (ghi credit 'Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams')",
+     "credit": "Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams",
+     "status": "TO CAPTURE — chỉ khi module đang hoạt động",
+     "note": "Nếu dùng: thay B01 ở SH18 (câu 'Một hiện tượng có thể được quan sát'). Phải hiển thị nguồn và thời điểm dữ liệu đúng như UI thật, không dựng lại."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L17",
+     "t": 0.4,
+     "end": 2.68
+    },
+    {
+     "id": "L18",
+     "t": 3.2,
+     "end": 5.24
+    }
+   ]
+  },
+  {
+   "id": "SH19",
+   "tin": 86.84,
+   "tout": 89.88,
+   "dur": 3.039999999999992,
+   "layer": "B",
+   "trans_in": "cut",
+   "assets": [
+    "B02"
+   ],
+   "visual": "Phòng thí nghiệm độ lệch tâm: thanh trượt e di chuyển từ 0,10 lên 0,70; elip dẹt dần, các điểm cách đều theo thời gian dồn về viễn điểm.",
+   "motion": "Khung cố định zoom 1,25 vào khối lab (thấy nhãn SIMULATION, hình, thanh trượt, bảng số). Con trỏ kéo e 0,10 → 0,70 trong 0,35–2,5 s, có easing.",
+   "onscreen": "Không.",
+   "asset_info": [
+    {
+     "id": "B02",
+     "layer": "B",
+     "desc": "Phòng thí nghiệm độ lệch tâm — kéo thanh trượt e từ 0,10 lên 0,70",
+     "source": "vnises-gioithieu.php v1.0, scene 04",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com",
+     "note": "SIMULATION, có nhãn trên UI."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L19",
+     "t": 0.4,
+     "end": 2.44
+    }
+   ]
+  },
+  {
+   "id": "SH20",
+   "tin": 89.88,
+   "tout": 93.0,
+   "dur": 3.1200000000000045,
+   "layer": "C",
+   "trans_in": "cut",
+   "assets": [
+    "C05"
+   ],
+   "visual": "Một quỹ đạo vật ném với nhãn ASSUMPTION 'bỏ qua lực cản không khí'. Bật điều kiện có lực cản: đường thứ hai hiện ra ngắn hơn, thấp hơn, không đối xứng.",
+   "motion": "Đường 1 vẽ dần 1,4 s; nhãn giả định gạch đi; đường 2 vẽ dần 1,4 s.",
+   "onscreen": "'ASSUMPTION · bỏ qua lực cản không khí' → 'có lực cản không khí'.",
+   "asset_info": [
+    {
+     "id": "C05",
+     "layer": "C",
+     "desc": "Kiểm tra giả định: quỹ đạo vật ném có/không có lực cản không khí",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": "SIMULATION; định tính, không đơn vị."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L20",
+     "t": 0.4,
+     "end": 2.44
+    }
+   ]
+  },
+  {
+   "id": "SH21",
+   "tin": 93.0,
+   "tout": 96.0,
+   "dur": 3.0,
+   "layer": "B",
+   "trans_in": "cut",
+   "assets": [
+    "B03"
+   ],
+   "visual": "Phòng thí nghiệm độ lệch tâm: ghim quỹ đạo e = 0,30 làm tham chiếu (nét đứt), kéo e lên 0,75; các tỉ số trong bảng thay đổi.",
+   "motion": "Khung như SH19. Con trỏ di tới nút 'Ghim làm quỹ đạo tham chiếu', bấm ở 0,6 s, quay lại thanh trượt và kéo e 0,30 → 0,75 trong 1,05–2,6 s.",
+   "onscreen": "Không.",
+   "asset_info": [
+    {
+     "id": "B03",
+     "layer": "B",
+     "desc": "Phòng thí nghiệm độ lệch tâm — ghim quỹ đạo tham chiếu rồi thay đổi e để so sánh",
+     "source": "vnises-gioithieu.php v1.0, scene 04",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L21",
+     "t": 0.4,
+     "end": 2.48
+    }
+   ]
+  },
+  {
+   "id": "SH22",
+   "tin": 96.0,
+   "tout": 99.76,
+   "dur": 3.760000000000005,
+   "layer": "B",
+   "trans_in": "cut",
+   "assets": [
+    "B04"
+   ],
+   "visual": "Khối 'Ví dụ: một câu hỏi, nhiều hướng đi' — câu hỏi 'Vì sao vệ tinh không rơi xuống Trái Đất?' và bốn nhánh.",
+   "motion": "Zoom 1,85 vào cột phải; trượt dọc chậm từ câu hỏi xuống nhánh cuối (0,2–4,2 s). Matte tối mép trái che phần sơ đồ không liên quan.",
+   "onscreen": "Không.",
+   "asset_info": [
+    {
+     "id": "B04",
+     "layer": "B",
+     "desc": "Khối 'Một câu hỏi, nhiều hướng đi' trong scene Nexus của module giới thiệu",
+     "source": "vnises-gioithieu.php v1.0, scene 03",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L22",
+     "t": 0.4,
+     "end": 3.64
+    }
+   ]
+  },
+  {
+   "id": "SH23",
+   "tin": 99.76,
+   "tout": 118.16,
+   "dur": 18.39999999999999,
+   "layer": "C",
+   "trans_in": "dip:0.8",
+   "assets": [
+    "C06"
+   ],
+   "visual": "Nền graphite. Mở đầu: các lĩnh vực nằm trong những ô ngăn cách bởi vạch mảnh; vạch mờ đi. Sau đó ba chuỗi liên kết lần lượt hình thành thành ba hàng ngang theo từng câu VO.",
+   "motion": "Mỗi chuỗi: nút xuất hiện 0,4 s/nút, đường nối vẽ dần. Không chuyển động tự do của nút.",
+   "onscreen": "Nhãn nút (tiếng Việt): Ánh sáng → Thế giới tự nhiên → Lượng tử → Thiên văn học · Chuyển động → Cơ học → Quỹ đạo → Du hành không gian · Quan sát thiên hà → Vũ trụ học → Lịch sử vũ trụ.",
+   "asset_info": [
+    {
+     "id": "C06",
+     "layer": "C",
+     "desc": "Mạng Nexus xây dần theo ba chuỗi liên kết",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L23",
+     "t": 0.8,
+     "end": 3.48
+    },
+    {
+     "id": "L24",
+     "t": 4.0,
+     "end": 8.24
+    },
+    {
+     "id": "L25",
+     "t": 8.84,
+     "end": 12.64
+    },
+    {
+     "id": "L26",
+     "t": 13.24,
+     "end": 18.0
+    }
+   ]
+  },
+  {
+   "id": "SH24",
+   "tin": 118.16,
+   "tout": 120.72,
+   "dur": 2.5600000000000023,
+   "layer": "C",
+   "trans_in": "cut",
+   "assets": [
+    "C06",
+    "B05"
+   ],
+   "visual": "Các liên kết chéo vàng nối ba chuỗi (Thế giới tự nhiên ↔ Cơ học; Quỹ đạo ↔ Thiên văn học; Lượng tử ↔ Vũ trụ học; Thiên văn học ↔ Lịch sử vũ trụ) — các 'ngăn' không còn tách biệt. Dissolve sang sơ đồ Nexus thật của VNISES, một khái niệm được chọn.",
+   "motion": "Liên kết chéo vẽ dần 0–1,5 s; dissolve 0,6 s sang footage sơ đồ Nexus thật; con trỏ chọn 'Mô hình' (≈2,4 s của shot).",
+   "onscreen": "Nhãn 'NEXUS · điểm hội tụ giữa các lĩnh vực' góc trên trái.",
+   "asset_info": [
+    {
+     "id": "B05",
+     "layer": "B",
+     "desc": "Sơ đồ Nexus tương tác — chọn lần lượt các khái niệm",
+     "source": "vnises-gioithieu.php v1.0, scene 03",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com",
+     "note": ""
+    },
+    {
+     "id": "C06",
+     "layer": "C",
+     "desc": "Mạng Nexus xây dần theo ba chuỗi liên kết",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L27",
+     "t": 0.4,
+     "end": 2.08
+    }
+   ]
+  },
+  {
+   "id": "SH25",
+   "tin": 120.72,
+   "tout": 140.6,
+   "dur": 19.879999999999995,
+   "layer": "C",
+   "trans_in": "dip:1.0",
+   "assets": [
+    "C07"
+   ],
+   "visual": "Sơ đồ khái niệm tĩnh, xây theo từng câu: (L29) điểm dữ liệu + nhãn SOURCE; (L30) điểm quan sát đặc vs đường mô phỏng nét đứt; (L31) ranh giới giả định; (L32) vùng ngoài giới hạn gạch chéo + LIMITATIONS; (L33) vùng suy luận mở rộng dần + INFERENCE.",
+   "motion": "Chỉ fade và vẽ nét; không camera move.",
+   "onscreen": "OBSERVATION · DATA · SIMULATION · ASSUMPTION · INFERENCE và SOURCE · CONDITIONS · LIMITATIONS (nhãn nhỏ cạnh từng thành phần).",
+   "asset_info": [
+    {
+     "id": "C07",
+     "layer": "C",
+     "desc": "Sơ đồ phân loại thông tin: OBSERVATION / DATA / SIMULATION / ASSUMPTION / INFERENCE + SOURCE / CONDITIONS / LIMITATIONS",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": "Sơ đồ khái niệm, không có số liệu."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L28",
+     "t": 0.8,
+     "end": 4.24
+    },
+    {
+     "id": "L29",
+     "t": 5.04,
+     "end": 6.4
+    },
+    {
+     "id": "L30",
+     "t": 7.0,
+     "end": 9.32
+    },
+    {
+     "id": "L31",
+     "t": 9.92,
+     "end": 11.56
+    },
+    {
+     "id": "L32",
+     "t": 12.16,
+     "end": 14.48
+    },
+    {
+     "id": "L33",
+     "t": 15.08,
+     "end": 19.2
+    }
+   ]
+  },
+  {
+   "id": "SH26",
+   "tin": 140.6,
+   "tout": 152.32,
+   "dur": 11.719999999999999,
+   "layer": "B",
+   "trans_in": "dissolve:0.8",
+   "assets": [
+    "B06"
+   ],
+   "visual": "Footage thật của VNISES: bảng provenance áp dụng cho mô hình quỹ đạo, rồi cuộn lên chuỗi 'Quan sát → Thay đổi → So sánh → Kiểm chứng → Hiểu'.",
+   "motion": "Phần 1 (0–6,0 s): trượt dọc chậm qua bảng provenance, zoom 1,2. Dissolve 0,8 s. Phần 2: chuỗi 'Quan sát → … → Hiểu', push-in 1,25 → 1,38 — trùng câu 'con đường từ quan sát đến hiểu biết'.",
+   "onscreen": "Không.",
+   "asset_info": [
+    {
+     "id": "B06",
+     "layer": "B",
+     "desc": "Chuỗi phương pháp 'Quan sát → Thay đổi → So sánh → Kiểm chứng → Hiểu' và bảng provenance",
+     "source": "vnises-gioithieu.php v1.0, scene 04 & 07",
+     "org": "VNISES",
+     "url": "repo vankhangtrinh/vnises_gt",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "CAPTURED (offline edit) — RE-CAPTURE trên vnises.com",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L34",
+     "t": 0.4,
+     "end": 6.0
+    },
+    {
+     "id": "L35",
+     "t": 6.6,
+     "end": 11.0
+    }
+   ]
+  },
+  {
+   "id": "SH27",
+   "tin": 152.32,
+   "tout": 161.84,
+   "dur": 9.52000000000001,
+   "layer": "A",
+   "trans_in": "dip:1.2",
+   "assets": [
+    "A05"
+   ],
+   "visual": "Hubble Ultra Deep Field — lần này kéo ra chậm (ngược với SH05), rồi tối dần về đen.",
+   "motion": "Pull-out 1,12 → 1,00; fade to black 1,4 s sau câu L37.",
+   "onscreen": "Không.",
+   "asset_info": [
+    {
+     "id": "A05",
+     "layer": "A",
+     "desc": "Hubble Ultra Deep Field (2004)",
+     "source": "ESA/Hubble — heic0406a",
+     "org": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+     "url": "https://esahubble.org/images/heic0406a/",
+     "license": "CC BY 4.0 (ESA/Hubble)",
+     "credit": "NASA, ESA, S. Beckwith (STScI) and the HUDF Team",
+     "status": "VERIFY",
+     "note": "Dùng bản full-resolution; push-in chậm không quá 1,15×."
+    }
+   ],
+   "cues": [
+    {
+     "id": "L36",
+     "t": 0.8,
+     "end": 5.24
+    },
+    {
+     "id": "L37",
+     "t": 6.16,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "id": "SH28",
+   "tin": 161.84,
+   "tout": 175.48,
+   "dur": 13.639999999999986,
+   "layer": "C",
+   "trans_in": "cut",
+   "assets": [
+    "C08"
+   ],
+   "visual": "Màn đen 1 s im lặng → 'VNISES' → tên đầy đủ → 'vnises.com'. Sau đó thẻ credit hình ảnh.",
+   "motion": "Fade 1,0 s từng dòng. Không chuyển động khác.",
+   "onscreen": "VNISES · Vietnam Nexus for Interactive Space Exploration and Science · vnises.com · Credit hình ảnh",
+   "asset_info": [
+    {
+     "id": "C08",
+     "layer": "C",
+     "desc": "End card VNISES + credit hình ảnh",
+     "source": "Dựng trong gói",
+     "org": "VNISES",
+     "url": "—",
+     "license": "Sở hữu của VNISES",
+     "credit": "—",
+     "status": "IN-HOUSE",
+     "note": ""
+    }
+   ],
+   "cues": [
+    {
+     "id": "L38",
+     "t": 1.2,
+     "end": 6.64
+    }
+   ]
+  }
+ ]
+}

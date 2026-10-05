@@ -1,0 +1,195 @@
+1
+00:00:01,520 --> 00:00:05,010
+Có những câu hỏi đã đi
+cùng con người từ rất lâu.
+
+2
+00:00:05,360 --> 00:00:07,650
+Vũ trụ bắt đầu như thế nào?
+
+3
+00:00:08,080 --> 00:00:10,130
+Sự sống xuất hiện ra sao?
+
+4
+00:00:10,560 --> 00:00:14,890
+Vật chất, không gian và thời gian
+được tổ chức bởi những quy luật nào?
+
+5
+00:00:15,040 --> 00:00:19,010
+Và vị trí của chúng ta trong
+vũ trụ rộng lớn này là gì?
+
+6
+00:00:19,680 --> 00:00:23,880
+Khoa học đã đưa con người tiến rất xa
+trong việc trả lời những câu hỏi ấy.
+
+7
+00:00:23,960 --> 00:00:26,880
+Chúng ta đã nhìn sâu vào
+cấu trúc của vật chất,
+
+8
+00:00:26,960 --> 00:00:29,200
+đọc được thông tin chứa trong sự sống,
+
+9
+00:00:29,280 --> 00:00:32,480
+quan sát ánh sáng đã đi
+qua vũ trụ hàng tỷ năm,
+
+10
+00:00:32,560 --> 00:00:35,330
+và đưa thiết bị của
+mình ra ngoài Trái Đất.
+
+11
+00:00:35,600 --> 00:00:38,970
+Nhưng mỗi khám phá mới lại
+mở ra những câu hỏi mới.
+
+12
+00:00:39,520 --> 00:00:44,170
+Ta thường nói về khám phá vũ trụ như thể
+đang quan sát một thế giới bên ngoài.
+
+13
+00:00:44,400 --> 00:00:47,730
+Nhưng con người chưa bao
+giờ đứng ngoài tự nhiên.
+
+14
+00:00:49,280 --> 00:00:53,170
+Vật chất tạo nên chúng ta
+cũng là vật chất của vũ trụ.
+
+15
+00:00:53,520 --> 00:00:58,250
+Những quy luật ta tìm cách hiểu cũng chính
+là quy luật của thế giới ta đang sống.
+
+16
+00:00:58,600 --> 00:01:01,720
+Tri thức khoa học không được
+tạo nên trong một khoảnh khắc.
+
+17
+00:01:01,800 --> 00:01:06,449
+Nó được xây dựng qua nhiều thế hệ —
+từ quan sát, câu hỏi, thí nghiệm, mô hình,
+
+18
+00:01:06,449 --> 00:01:11,040
+dữ liệu, từ những sai lầm được nhận
+ra và những hiểu biết được sửa lại.
+
+19
+00:01:11,120 --> 00:01:16,210
+Mỗi thế hệ tiếp nhận những gì đã có,
+kiểm tra lại, và bổ sung một phần mới.
+
+20
+00:01:16,880 --> 00:01:21,050
+VNISES được xây dựng với mong muốn
+đóng góp một phần vào hành trình ấy.
+
+21
+00:01:21,600 --> 00:01:24,320
+Ở đây, khoa học không chỉ được đọc.
+
+22
+00:01:24,400 --> 00:01:26,890
+Một hiện tượng có thể được quan sát.
+
+23
+00:01:27,240 --> 00:01:29,730
+Một mô hình có thể được thay đổi.
+
+24
+00:01:30,280 --> 00:01:32,770
+Một giả định có thể được kiểm tra.
+
+25
+00:01:33,400 --> 00:01:35,930
+Một kết quả có thể được so sánh.
+
+26
+00:01:36,400 --> 00:01:40,090
+Và một câu hỏi có thể dẫn
+sang một câu hỏi sâu hơn.
+
+27
+00:01:40,560 --> 00:01:43,680
+Bởi khoa học không tồn tại
+trong những ngăn riêng biệt.
+
+28
+00:01:43,760 --> 00:01:48,450
+Một câu hỏi về ánh sáng có thể dẫn
+đến lượng tử, rồi đến thiên văn học.
+
+29
+00:01:48,600 --> 00:01:52,850
+Một bài toán chuyển động có thể dẫn
+đến quỹ đạo và du hành không gian.
+
+30
+00:01:53,000 --> 00:01:58,210
+Một quan sát về thiên hà có thể mở ra
+câu hỏi về lịch sử của toàn bộ vũ trụ.
+
+31
+00:01:58,560 --> 00:02:00,690
+Đó là ý nghĩa của Nexus.
+
+32
+00:02:01,520 --> 00:02:05,410
+Nhưng khám phá chỉ có ý nghĩa
+khi đi cùng khả năng kiểm chứng.
+
+33
+00:02:05,760 --> 00:02:07,570
+Dữ liệu cần có nguồn.
+
+34
+00:02:07,720 --> 00:02:10,490
+Mô phỏng phải được phân biệt với quan sát.
+
+35
+00:02:10,640 --> 00:02:12,730
+Giả định cần được nhận diện.
+
+36
+00:02:12,880 --> 00:02:15,650
+Giới hạn của mô hình cần được thể hiện.
+
+37
+00:02:15,800 --> 00:02:20,370
+Và khi chưa có đủ bằng chứng,
+sự chưa chắc chắn cũng cần được nói rõ.
+
+38
+00:02:21,000 --> 00:02:24,733
+VNISES không được xây dựng để làm
+khoa học trông đơn giản hơn thực tế,
+
+39
+00:02:24,733 --> 00:02:27,050
+cũng không để làm nó phức tạp thêm.
+
+40
+00:02:27,200 --> 00:02:32,050
+Mục tiêu là làm cho con đường từ quan
+sát đến hiểu biết trở nên rõ ràng hơn.
+
+41
+00:02:33,120 --> 00:02:38,010
+Có thể sẽ luôn còn những câu hỏi vượt
+quá hiểu biết hiện tại của chúng ta.
+
+42
+00:02:38,480 --> 00:02:42,290
+Và chính vì thế, hành trình
+khám phá vẫn tiếp tục.
